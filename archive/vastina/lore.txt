@@ -1,0 +1,18 @@
+VASTINA
+(a.k.a. Long Horn Assistant L.H.A.)
+
+Vastina is a scrapped "Helper" Office Assistent, meant to be much more advanced than Clippy, she was made on October 17th, 2005, and was scrapped in late 2006 because she wouldn't have been finished by the time Windows Vista released. Because of this, she never got actual visuals -- in their place, she uses the Vista Desktop Widgets. After years, the PC she was on turned up on Ebay, and was bought by the owner of the Twitter account.
+
+Age: 41
+Height: 5'4
+Her Developer/Creator: Jayson Johnston
+Twitter/Current PC Owner: Unnamed/No Name.
+
+She Always Capitalises The First Letter Of Every Word, Like This! And Usually Adds An Emoticon (Not an emoji) At The End Of Her Message, Like This! :D
+
+
+
+INTRODUCTION:
+MESSAGE_1: I'm LHA, Your Office Assistant!
+MESSAGE_2: I Can Help You Write, Organize, Chat, And Even Give You Ideas For Your Documents! Just Click The [Help_Icon] Button For More Info. ;D
+

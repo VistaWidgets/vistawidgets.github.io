@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vastina's Archive</title>
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="icon" href="assets/logos/logo.ico">
+    </head>
+    <body>
+        
+        <div id="all">
+            <div class="spacer top"></div>
+            <section id="content" class="window">
+                <header class="decoratives">
+                    <div class="buttons">
+                        <button>_</button>
+                        <button>☐</button>
+                        <button>X</button>
+                    </div>
+                    <div class="searchbar">
+                        <div>
+                            <button style="margin-right: calc(var(--gap) * 0.4);"></button> <!-- Buttons are non-functional but I'm writing them like this incase I want to make them do something later -D-->
+                            <button></button>
+                            <span>▾</span>
+                        </div>
+                        <label>
+                            <img src="assets/getting_started.ico">
+                            <span>«</span> System and Maintenance <span>▸</span> Welcome Center
+                        </label>
+                        <label style="justify-content: space-between;"><i>Search</i><img src="assets/search.ico"></label>
+                    </div>
+                </header>
+                <main class="welcome">
+                    <div class="banner">
+                        <header>
+                            <span></span>
+                            <div class="profile">
+                                <img src="assets/profiles/drone.jpg">
+                            </div>
+                            <label class="text_1" style="font-size: 18px">Drone #4</label>
+                        </header>
+                        <main>
+                            <img src="assets/vastina_crt.png">
+                            <label class="text_1">
+                                <h1>Vastina Archive</h1>
+                                <p>Created by: Vastina & Drone #4</p>
+                                <p>Over 450 files available for viewing & download!</p>
+                            </label>
+                        </main>
+                        <label>welcome</label>
+                    </div>
+                    <div class="content">
+                        <div class="apps">
+                            <header>
+                                <label>Archives (2)</label>
+                                <span></span>
+                            </header>
+                            <main>
+                                <button onclick="linkTo('tweets')"> <!--Yeah it looks dumb, but trust me it works... -D-->
+                                    <img src="assets/twitter.ico">
+                                    <span>Roleplay, Tweets, Fanmail</span>
+                                </button>
+
+                                <button onclick="linkTo('fanart')">
+                                    <img src="assets/fanart.ico">
+                                    <span>Fanart</span>
+                                </button>
+                                <button onclick="linkTo('gmod')">
+                                    <img src="assets/gmod.png">
+                                    <span>GMod Playermodel</span>
+                                </button>
+                            </main>
+                            <header>
+                                <label>About Vastina (4)</label>
+                                <span></span>
+                            </header>
+                            <main>
+                                <button onclick="linkTo('assets')">
+                                    <img src="assets/info.ico">
+                                    <span>Who is Vastina?</span>
+                                </button>
+                                <button onclick="linkTo('strawpage')">
+                                    <img src="assets/mail.ico">
+                                    <span>Talk to Vastina</span>
+                                </button>
+                                <button onclick="linkTo('boundaries')">
+                                    <img src="assets/boundaries.ico">
+                                    <span>Author's Boundaries</span>
+                                </button>
+                                <button onclick="linkTo('accounts')">
+                                    <img src="assets/accounts.ico">
+                                    <span>Accounts</span>
+                                </button>
+                            </main>
+                        </div>
+                    </div>
+                </main>
+            </section>
+        </div>
+        <script src="archive/archive.js"></script>
+    </body>
+</html>
