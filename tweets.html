@@ -11,8 +11,38 @@
         </style>
     </head>
     <body>
-        
-        <div id="all">
+        <!-- Emojis courtesy of Twemoji, used under the CC-BY-4.0 license -->
+        <!-- https://github.com/twitter/twemoji -->
+        <template id="template_tweet">
+            <article class="tweet">
+                <a class="avatar">
+                    <img src="assets/profiles/vastina.jpg">
+                </a>
+                <header>
+                    <a href="https://x.com/vistawidgets"> <!-- source -->
+                        <b></b> <!-- name -->
+                        <span></span> <!-- handle -->
+                    </a>
+                </header>
+                <main>
+                    <div class="text">
+                        <span></span> <!-- text -->
+                    </div>
+                    <div class="media one"> <!-- media -->
+                    </div>
+                    <div class="decoratives">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="time">
+                        <!-- time -->
+                    </span>
+                </main>
+            </article>
+        </template>
+        <div id="all" style="max-height: 900px;">
             <section id="content" class="window">
                 <header class="decoratives">
                     <div class="buttons">
@@ -33,10 +63,25 @@
                         <label style="justify-content: space-between;"><i>Search</i><img src="assets/search.ico"></label>
                     </div>
                 </header>
-                <main>
-
+                <main class="tweets">
+                    <div>
+                        <div class=".twitter" id="win7">
+                        
+                        </div>
+                    </div>
+                    <div>
+                        <div class=".twitter" id="winvista">
+                        
+                        </div>
+                    </div>
+                    <div>
+                        <div class=".twitter" id="bunkerbots">
+                        
+                        </div>
+                    </div>
                 </main>
             </section>
         </div>
     </body>
+    <script src="archive/archive.js"></script>
 </html>

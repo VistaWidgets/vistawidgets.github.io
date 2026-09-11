@@ -6,6 +6,10 @@
 * {
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "rosetta";
+    src: url(assets/font/rosetta.woff);
+}
 body {
     background: url("assets/windowsvista.png");
     background-size: cover;
@@ -13,6 +17,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scrollbar-width: none;
 }
 label > img {
     display: inline-block;
@@ -43,12 +48,29 @@ i {
     margin: auto;
     width: 100%;
     max-width: 900px;
-    max-height: 900px;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+}
+@media (max-width: 1000px) {
+    #all {
+        max-width: 900px;
+    }
+}
+@media (max-width: 950px) {
+    #all {
+        max-width: 800px;
+    }
+}
+@media (max-width: 850px) {
+    #all {
+        max-width: 700px;
+    }
+    .window .decoratives {
+        display: none;
+    }
 }
 #content {
     height: 100%;
@@ -257,6 +279,7 @@ i {
     grid-template-rows: 75px;
     padding:calc(var(--gap) * 0.5);
     border: 2px solid rgb(173, 225, 255, 0.0);
+    cursor: pointer;
 }
 .apps > main > button:hover {
     
@@ -309,4 +332,124 @@ i {
         rgba(192, 233, 245, 0.5) 90%,
         rgba(173, 225, 255, 0.5) 100%
     )
+}
+
+
+/*
+CREDIT TO: dimden.dev's "Old Twitter Layout" extension!
+(https://chromewebstore.google.com/detail/old-twitter-layout-2026/jgejdcdoeeabklepnkdbglgccjpdgpmf?hl=en)
+I referenced it to mimic Twitter's CSS...
+*/
+article.tweet {
+    max-width: 500px;
+    background-color: white;
+    min-height: 100px;
+    height: min-content;
+    padding: 10px;
+    border: 1px solid gray;
+}
+article.tweet > .avatar {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+article.tweet > .avatar img {
+    width: 48px;
+    height: 48px;
+    aspect-ratio: auto 48 / 48;
+    border-radius: 3px;
+}
+article.tweet > header {
+    display: contents;
+}
+article.tweet > header > a {
+    display: inline;
+    text-decoration: none;
+}
+article.tweet > header > a > b {
+    display: inline;
+    font-size: 16px;
+    color: #000;
+}
+article.tweet > header > a > span {
+    display: inline;
+    color: gray;
+    font-size: 14px;
+}
+article.tweet > main {
+    display: flow-root;
+}
+article.tweet > main {
+    font-size: 16px;
+}
+article.tweet > main > .media {
+    max-width: 500px;
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns: 1fr;
+}
+article.tweet > main > .media img,
+article.tweet > main > .media video {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+article.tweet > main > .media img:not(:first-child),
+article.tweet > main > .media video:not(:first-child) {
+    margin-top: 5px;
+}
+article.tweet > main > .decoratives {
+    display: flow-root;
+}
+article.tweet > main > .decoratives > span {
+    display: inline;
+    cursor: not-allowed;
+    margin-left: 5px;
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+    aspect-ratio: auto 20 / 20;
+}
+article.tweet > main > .time {
+    display: inline;
+    color: gray;
+    font-size: 12px;
+}
+article.tweet > main > .decoratives span::before {
+    color: lightgray;
+    font-family: "rosetta";
+}
+article.tweet > main > .decoratives span:nth-child(1):before {
+    content: "\f151";
+}
+article.tweet > main > .decoratives span:nth-child(2):before {
+    content: "\f152";
+}
+article.tweet > main > .decoratives span:nth-child(3):before {
+    content: "\f147";
+}
+article.tweet > main > .decoratives span:nth-child(4):before {
+    content: "\f150";
+}
+.twitter {
+
+}
+img.emoji {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+.tweets {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow-x: hidden;
+    max-height: 100%;
+}
+.tweets > div {
+    overflow-x: scroll;
+    scrollbar-width: none;
 }

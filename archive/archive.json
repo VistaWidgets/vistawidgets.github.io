@@ -1,10 +1,13 @@
-
 {
     "characters": [
         {
             "name": "Vastina",
             "account": "VistaWidgets",
-            "pfp": "assets/profiles/vastina.jpg",
+            "pfp": "assets/profiles/vastina.png",
+            "themes": {
+                "win7": "assets/profiles/vastina_win7.png",
+                "3d": "assets/profiles/vastina_3d.png"
+            },
             "color": "#FFFFFF"
         },
         {
@@ -32,6 +35,7 @@
             "name": "Windows 7 Era",
             "synopsis": "First ~week of tweets from Vastina; she had a Windows 7 theme at first!",
             "directory": "twitter/1_win7/",
+            "theme": "win7",
             "panels": [
                 {
                     "from": "Vastina",
@@ -114,7 +118,19 @@
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everyone! How Are You Feeling? :D",
-                    "file": ["16.png"],
+                    "file": ["15.png"],
+                    "unix": null
+                },
+                {
+                    "from": "Vastina",
+                    "text": null,
+                    "file": ["gimmick1.mp4"],
+                    "unix": null
+                },
+                {
+                    "from": "Vastina",
+                    "text": null,
+                    "file": ["gimmick2.mp4"],
                     "unix": null
                 }
             ],
@@ -517,16 +533,7 @@
                     "text": null,
                     "file": ["67.png"],
                     "unix": null
-                }
-            ],
-            "gimmicks": 41
-        },
-        {
-            "id": "animations",
-            "name": "Vastina Animations",
-            "synopsis": "Just a small set of animations",
-            "directory": "twitter/.animations/",
-            "panels": [
+                },
                 {
                     "from": "Vastina",
                     "text": null,
@@ -542,28 +549,18 @@
                 {
                     "from": "Vastina",
                     "text": null,
-                    "file": ["gimmick1.mp4"],
-                    "unix": null
-                },
-                {
-                    "from": "Vastina",
-                    "text": null,
-                    "file": ["gimmick2.mp4"],
-                    "unix": null
-                },
-                {
-                    "from": "Vastina",
-                    "text": null,
                     "file": ["shutdown.mp4"],
                     "unix": null
                 }
-            ]
+            ],
+            "gimmicks": 41
         },
         {
-            "id": "bunkerbotsxvastina",
+            "id": "bunkerbots",
             "name": "Bunkerbots x Vastina Collab!",
             "synopsis": "Joe takes Vastina on a tour through his bunker. She & the Bunkerbots screw around, & there's yuri...",
             "directory": "twitter/3_bunkerbots/",
+            "theme": "3d",
             "panels": [
                 {
                     "from": "Vastina",
@@ -584,208 +581,566 @@
                     "text": "*Knock Knock Knock* Anyone Home?",
                     "file": ["2.png"],
                     "source": "https://x.com/VistaWidgets/status/2056719357380620498",
-                    "unix": 1779195105,
-                    "extra": []
+                    "unix": 1779195105
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: oh hey it's Vastina",
-                    "file": null,
+                    "text": "\u00F0\u009F\u009F\u00A7: oh hey it's Vastina",
+                    "file": [],
                     "source": "https://x.com/joetherobo52693/status/2056719970298474693",
-                    "unix": 1779195227,
-                    "extra": []
+                    "unix": 1779195227
                 },
                 {
                     "from": "Vastina",
                     "text": "Hey, Joe! Mind If I Come In? Thought I Would Give You Guys A Visit! :D",
-                    "file": null,
+                    "file": [],
                     "source": "https://x.com/VistaWidgets/status/2056720161109901498",
-                    "unix": 1779195273,
-                    "extra": []
+                    "unix": 1779195273
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: sure, just take the elevator down",
-                    "file": null,
+                    "text": "\u00F0\u009F\u009F\u00A7: sure, just take the elevator down",
+                    "file": [],
                     "source": "https://x.com/joetherobo52693/status/2056720450349093193",
-                    "unix": 1779195342,
-                    "extra": []
+                    "unix": 1779195342
                 },
                 {
                     "from": "Vastina",
                     "text": "*Humming*",
-                    "file": null,
+                    "file": [],
                     "source": "https://x.com/VistaWidgets/status/2056737853829169455",
-                    "unix": 1779199491,
-                    "extra": []
+                    "unix": 1779199491
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: hmmmm",
-                    "file": null,
+                    "text": "\u00F0\u009F\u009F\u00A7: hmmmm",
+                    "file": [],
                     "source": "https://x.com/joetherobo52693/status/2056738731332145200",
-                    "unix": 1779199700,
-                    "extra": []
+                    "unix": 1779199700
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: so this is the dining room\nwe don't do much dining in here though\nbut it's here",
+                    "text": "\u00F0\u009F\u009F\u00A7: so this is the dining room\nwe don't do much dining in here though\nbut it's here",
                     "file": ["3.png"],
                     "source": "https://x.com/joetherobo52693/status/2056764565619097817",
-                    "unix": 1779205859,
-                    "extra": []
+                    "unix": 1779205859
                 },
                 {
                     "from": "Vastina",
                     "text": "Oh! This Room Looks Pretty! But... Where Are The Chairs?",
-                    "file": null,
+                    "file": [],
                     "source": "https://x.com/VistaWidgets/status/2056764783697772891",
-                    "unix": 1779205911,
-                    "extra": []
+                    "unix": 1779205911
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: honest to god i have no clue",
+                    "text": "\u00F0\u009F\u009F\u00A7: honest to god i have no clue",
                     "file": ["4.png"],
                     "source": "https://x.com/joetherobo52693/status/2056766868334002569",
-                    "unix": 1779206408,
-                    "extra": []
+                    "unix": 1779206408
                 },
                 {
                     "from": "Vastina",
                     "text": "A Dinning Room Without Chairs? What Kind Of Nonsense Is That!? D:",
                     "file": ["5.png"],
                     "source": "https://x.com/VistaWidgets/status/2056777926591307999",
-                    "unix": 1779209045,
-                    "extra": []
+                    "unix": 1779209045
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: complete nonsense i say",
+                    "text": "\u00F0\u009F\u009F\u00A7: complete nonsense i say",
                     "file": ["6.png"],
                     "source": "https://x.com/joetherobo52693/status/2056780940957937821",
-                    "unix": 1779209764,
-                    "extra": []
+                    "unix": 1779209764
                 },
                 {
                     "from": "Vastina",
                     "text": "You Guys Should Buy Some Chairs Then!",
-                    "file": null,
+                    "file": [],
                     "source": "https://x.com/VistaWidgets/status/2056782621724586141",
-                    "unix": 1779210164,
-                    "extra": []
+                    "unix": 1779210164
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: i only had enough for one stool",
-                    "file": null,
+                    "text": "\u00F0\u009F\u009F\u00A7: i only had enough for one stool",
+                    "file": [],
                     "source": "https://x.com/joetherobo52693/status/2056782741555880159",
-                    "unix": 1779210193,
-                    "extra": []
+                    "unix": 1779210193
                 },
                 {
                     "from": "Vastina",
                     "text": "I'm Gonna Murder You.",
-                    "file": null,
+                    "file": [],
                     "source": "https://x.com/VistaWidgets/status/2056784008210464803",
-                    "unix": 1779210495,
-                    "extra": []
+                    "unix": 1779210495
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: :(",
-                    "file": null,
+                    "text": "\u00F0\u009F\u009F\u00A7: :(",
+                    "file": [],
                     "source": "https://x.com/joetherobo52693/status/2056784587863269710",
-                    "unix": 1779210633,
-                    "extra": []
+                    "unix": 1779210633
                 },
                 {
                     "from": "Vastina",
                     "text": "Look I Got Some Spare Cash You Can Buy A Couple Chairs With This, Okay?\n[You Got 1,000 Dollars!]",
                     "file": ["chest-zelda.gif"],
                     "source": "https://x.com/VistaWidgets/status/2056786558288609359",
-                    "unix": 1779211103,
-                    "extra": []
+                    "unix": 1779211103
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: oh sweet\nthanks",
-                    "file": null,
+                    "text": "\u00F0\u009F\u009F\u00A7: oh sweet\nthanks",
+                    "file": [],
                     "source": "https://x.com/joetherobo52693/status/2056787487813505301",
-                    "unix": 1779211325,
-                    "extra": []
+                    "unix": 1779211325
                 },
                 {
                     "from": "Vastina",
                     "text": "No Problem!!!",
-                    "file": null,
+                    "file": [],
                     "source": "https://x.com/VistaWidgets/status/2056790707248021538",
-                    "unix": 1779212092,
-                    "extra": []
+                    "unix": 1779212092
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: anyways\nlets continue this tour",
-                    "file": null,
+                    "text": ": anyways\nlets continue this tour",
+                    "file": [],
                     "source": "https://x.com/joetherobo52693/status/2056790850835747220",
-                    "unix": 1779212126,
-                    "extra": []
+                    "unix": 1779212126
                 },
                 {
                     "from": "Vastina",
                     "text": "Yes, Yes! Where Too Next? :O",
-                    "file": null,
+                    "file": [],
                     "source": "https://x.com/VistaWidgets/status/2056790938849075480",
-                    "unix": 1779212147,
-                    "extra": []
+                    "unix": 1779212147
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: what about my room?\nWaltz and Vivian are in there if you'd like to talk to them",
+                    "text": "\u00F0\u009F\u009F\u00A7: what about my room?\nWaltz and Vivian are in there if you'd like to talk to them",
                     "file": ["7.png"],
                     "source": "https://x.com/joetherobo52693/status/2056792937732739322",
-                    "unix": 1779212624,
-                    "extra": []
+                    "unix": 1779212624
                 },
                 {
                     "from": "Vastina",
                     "text": "Yeah, Sure!",
-                    "file": null,
+                    "file": [],
                     "source": "https://x.com/VistaWidgets/status/2056794064217850337",
-                    "unix": 1779212892,
-                    "extra": []
+                    "unix": 1779212892
                 },
                 {
                     "from": "Joe",
-                    "text": "🟧: alrighty than\nhere it is!",
+                    "text": "\u00F0\u009F\u009F\u00A7: alrighty than\nhere it is!",
                     "file": ["8.png"],
                     "source": "https://x.com/joetherobo52693/status/2056800102677639673",
-                    "unix": 1779214332,
-                    "extra": []
+                    "unix": 1779214332
                 },
                 {
                     "from": "Vastina",
                     "text": "Hey Guys-",
                     "file": ["9.png"],
                     "source": "https://x.com/VistaWidgets/status/2056800224979349829",
-                    "unix": 1779214361,
-                    "extra": []
+                    "unix": 1779214361
                 },
                 {
                     "from": "Vastina",
                     "text": "Woah... Who Is That Fine Lady Over There? 👀",
                     "file": ["10.png"],
                     "source": "https://x.com/VistaWidgets/status/2056800333322481738",
-                    "unix": 1779214387,
-                    "extra": []
+                    "unix": 1779214387
                 },
                 {
-                    "from": "",
-                    "text": "",
-                    "file": "",
-                    "source": "",
-                    "unix": 0,
-                    "extra": []
+                    "from": "Vivian",
+                    "text": "\u00F0\u009F\u0092\u009C: uh\n\nheyyyy Vastina",
+                    "file": ["11.png", "12.png"],
+                    "source": "https://x.com/joetherobo52693/status/2056804286902780290",
+                    "unix": 1779215330
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hey Vivian! You're Lookin' Good! :D",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2056800333322481738",
+                    "unix": 1779215382
+                },
+                {
+                    "from": "Vivian",
+                    "text": "\u00F0\u009F\u0092\u009C: yeahh\nyou too",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2056805002409037832",
+                    "unix": 1779215500
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Yeahh- Woah Waltz.. What Happened To You?",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2056805431708680385",
+                    "unix": 1779215603
+                },
+                {
+                    "from": "Waltz",
+                    "text": "\u00F0\u009F\u009F\u00A2: I PUT GLUE ON MY WHEEL TO RIDE ON THE WALLS\nI GOT STUCK",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2056806791116157187",
+                    "unix": 1779215927
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Here- *Grunt* Let Me Get You Down- *Grunt*",
+                    "file": ["15.png"],
+                    "source": "https://x.com/VistaWidgets/status/2056816042521849993",
+                    "unix": 1779218132
+                },
+                {
+                    "from": "Waltz",
+                    "text": "\u00F0\u009F\u009F\u00A2: WAIT WAIT\nI CAN GET DOWN MYSELF",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2056816185207914673",
+                    "unix": 1779218167
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Then Why Are You- Even- Up Here???",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2056816429295349869",
+                    "unix": 1779218225
+                },
+                {
+                    "from": "Waltz",
+                    "text": "\u00F0\u009F\u009F\u00A2: I AM CURRENTLY FIGURING OUT METHODS OF ESCAPE",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2056816582739833247",
+                    "unix": 1779218261
+                },
+                {
+                    "from": "Vastina",
+                    "text": "W-Why Not Just- Take Off Your Wheel-? Screw It Off Or Something!",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2056819696784089588",
+                    "unix": 1779219004
+                },
+                {
+                    "from": "Waltz",
+                    "text": "\u00F0\u009F\u009F\u00A2: WOW\nWHY DIDN'T I THINK OF THAT",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2056819942024958222",
+                    "unix": 1779219062
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Dude",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2056822203870494829",
+                    "unix": 1779219601
+                },
+                {
+                    "from": "Waltz",
+                    "text": "\u00F0\u009F\u009F\u00A2: I WILL LOOK INTO IT SOON",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2056822688501453080",
+                    "unix": 1779219707
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hold On, Maybe I Can Find Something To Help!",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2056872759985127442",
+                    "unix": 1779231655
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: hey wait up!",
+                    "file": ["16.png"],
+                    "source": "https://x.com/joetherobo52693/status/2056873870070608122",
+                    "unix": 1779231920
+                },
+                {
+                    "from": "Vastina",
+                    "text": "What Is It?",
+                    "file": ["17.png"],
+                    "source": "https://x.com/VistaWidgets/status/2056874445977813491",
+                    "unix": 1779232057
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: i was wondering where you were heading off to",
+                    "file": ["18.png"],
+                    "source": "https://x.com/joetherobo52693/status/2056878449889824842",
+                    "unix": 1779233012
+                },
+                {
+                    "from": "Vastina",
+                    "text": "I'm Thinking I Can Find Something In The Bathroom That Could Help Waltz!",
+                    "file": ["19.png"],
+                    "source": "https://x.com/VistaWidgets/status/2056874445977813491",
+                    "unix": 1779233463
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: oh\nwell i don't think you'll find anything useful in there\nbut you do you i guess",
+                    "file": ["20.png"],
+                    "source": "https://x.com/joetherobo52693/status/2056882280233087141",
+                    "unix": 1779233925
+
+                },
+                {
+                    "from": "Vastina",
+                    "text": "*Rummaging* Let Me See Here... Hmm Hmm Hmm...",
+                    "file": ["21.png"],
+                    "source": "https://x.com/VistaWidgets/status/2056892432940204172",
+                    "unix": 1779236345
+
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: hrm....",
+                    "file": ["22.png"],
+                    "source": "https://x.com/joetherobo52693/status/2056895133581263094",
+                    "unix": 1779236989
+
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Ah-hah! Perfect! This Will Work!",
+                    "file": ["23.png"],
+                    "source": "https://x.com/VistaWidgets/status/2056903861118308638",
+                    "unix": 1779239070
+
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: WHAT THE FUCK DID YOU FIND",
+                    "file": ["24.png"],
+                    "source": "https://x.com/joetherobo52693/status/2056905102808560071",
+                    "unix": 1779239366
+
+                },
+                {
+                    "from": "Vastina",
+                    "text": "STRING CHEESE!",
+                    "file": ["25.png"],
+                    "source": "https://x.com/VistaWidgets/status/2056906353130545229",
+                    "unix": 1779239664
+
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: HOW THE FUCK IS STRING CHEESE GONNA HELP",
+                    "file": ["26.png"],
+                    "source": "https://x.com/joetherobo52693/status/2056906815418282495",
+                    "unix": 1779239774
+                },
+                {
+                    "from": "Vastina",
+                    "text": "JUST TRUST ME!",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2056907283649441850",
+                    "unix": 1779239766
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: OKAY THEN\nIT BETTER WORK!!!",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2056907889034318055",
+                    "unix": 1779240030
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Alright Waltz, I Have A Plan! This Might Hurt A Bit. ;D",
+                    "file": ["27.png"],
+                    "source": "https://x.com/VistaWidgets/status/2056919574742749480",
+                    "unix": 1779242816
+                },
+                {
+                    "from": "Waltz",
+                    "text": "\u00F0\u009F\u009F\u00A2: I AM SCARED",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2056919685229142248",
+                    "unix": 1779242843
+                },
+                {
+                    "from": "Vastina",
+                    "text": "(Your computer is unable to process the immense and overwhelming power of string cheese at this time.\n\n The renmoval of Waltz from the ceiling will be over in just a moment.\nThank you.",
+                    "file": ["28.png"],
+                    "source": "https://x.com/VistaWidgets/status/2056919961730175364",
+                    "unix": 1779242909
+                },
+                {
+                    "from": "Waltz",
+                    "text": "\u00F0\u009F\u009F\u00A2: OUCHHH\nWAIT",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2057119110090170397",
+                    "unix": 1779290389
+                },
+                {
+                    "from": "Waltz",
+                    "text": "\u00F0\u009F\u009F\u00A2: IT APPEARS I HAVE GOTTEN UNSTUCK",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2057119908375249034",
+                    "unix": 1779290580
+                },
+                {
+                    "from": "Waltz",
+                    "text": "\u00F0\u009F\u009F\u00A2: YAYYYYYYYY",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2057120373418680342",
+                    "unix": 1779290691
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Man... My Head... What Happened?",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2057130043365642523",
+                    "unix": 1779292996
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: i think we got Waltz off the ceiling",
+                    "file": ["32.png"],
+                    "source": "https://x.com/joetherobo52693/status/2057135040920703486",
+                    "unix": 1779294188
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: also i think he already left",
+                    "file": ["33.png"],
+                    "source": "https://x.com/joetherobo52693/status/2057137694245818565",
+                    "unix": 1779294820
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Here- *Grunt* Let Me Help You Up.",
+                    "file": ["34.png"],
+                    "source": "https://x.com/VistaWidgets/status/2057165248537174044",
+                    "unix": 1779301390
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: Thanks Vastina",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2057166203932614749",
+                    "unix": 1779301617
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: so uh\nnow what",
+                    "file": ["35.png"],
+                    "source": "https://x.com/joetherobo52693/status/2057169663629353451",
+                    "unix": 1779302442
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Maybe I Can Spend Some Time With Vivian?",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2057170436346044687",
+                    "unix": 1779302627
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: shore\ni'm sure she won't mind",
+                    "file": ["36.png"],
+                    "source": "https://x.com/joetherobo52693/status/2057173899939344686",
+                    "unix": 1779303452
+                },
+                {
+                    "from": "Joe",
+                    "text": "\u00F0\u009F\u009F\u00A7: anyways you two do whatever\ni got other things to do",
+                    "file": ["37.png"],
+                    "source": "https://x.com/joetherobo52693/status/2057183782571065409",
+                    "unix": 1779305809
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hey, Viv! You Doin Alright?",
+                    "file": ["38.png"],
+                    "source": "https://x.com/VistaWidgets/status/2057184487931302108",
+                    "unix": 1779305977
+                },
+                {
+                    "from": "Vivian",
+                    "text": "\u00F0\u009F\u0092\u009C: yeeeep\ni'm doin' fine",
+                    "file": ["39.png"],
+                    "source": "https://x.com/joetherobo52693/status/2057186917830082820",
+                    "unix": 1779306556
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Well, That's Good! Need Help Getting Up?",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2057187879474921727",
+                    "unix": 1779306785
+                },
+                {
+                    "from": "Vivian",
+                    "text": "\u00F0\u009F\u0092\u009C: nah nah i got it",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2057188225517531448",
+                    "unix": 1779306868
+                },
+                {
+                    "from": "Vivian",
+                    "text": "\u00F0\u009F\u0092\u009C: so uh\nwhat do you want to do",
+                    "file": ["40.png"],
+                    "source": "https://x.com/joetherobo52693/status/2057215619712389347",
+                    "unix": 1779313399
+                },
+                {
+                    "from": "Vastina",
+                    "text": "I Guess Just Hang Out, Do Stuff Together?",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2057218020267712900",
+                    "unix": 17793139710
+                },
+                {
+                    "from": "Vivian",
+                    "text": "\u00F0\u009F\u0092\u009C: like what exactly",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2057218307237781973",
+                    "unix": 1779314040
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Do You Guys Have UNO?",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2057222725622472940",
+                    "unix": 1779315093
+                },
+                {
+                    "from": "Vivian",
+                    "text": "\u00F0\u009F\u0092\u009C: nope",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2057224286310400050",
+                    "unix": 1779315465
+                },
+                {
+                    "from": "Vastina",
+                    "text": "What Do You Guys Do In Your Pastime???",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2057226943087378609",
+                    "unix": 1779316099
+                },
+                {
+                    "from": "Vivian",
+                    "text": "\u00F0\u009F\u0092\u009C: nothing really\nthere ain't much to do around here",
+                    "file": [],
+                    "source": "https://x.com/joetherobo52693/status/2057227796204703858",
+                    "unix": 1779316302
+                },
+                {
+                    "from": "Vastina",
+                    "text": "...",
+                    "file": [],
+                    "source": "https://x.com/VistaWidgets/status/2057227985569071363",
+                    "unix": 1779316347
+                },
+                {
+                    "from": "Vivian",
+                    "text": "\u00F0\u009F\u0092\u009C: ...",
+                    "file": ["41.png", "42.png"],
+                    "source": "https://x.com/joetherobo52693/status/2057229435900707204",
+                    "unix": 1779316693
                 }
             ]
         }
