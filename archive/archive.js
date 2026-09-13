@@ -11,26 +11,12 @@ const d = {
     wips:       archive + "wips/",
     misc:       archive + "misc/",
 }
-const fanart = {
-    cider       : d.fanart + "cider/",
-    dr_right2   : d.fanart + "dr_right2",
-    edgar       : d.fanart + "edgar/",
-    jenny       : d.fanart + "jenny/",
-    koi         : d.fanart + "koi/",
-    lovevirus   : d.fanart + "lovevirus/",
-    orion       : d.fanart + "orion/",
-    qu3stion    : d.fanart + "qu3stion/",
-    starlade    : d.fanart + "starlade/",
-    superdave938: d.fanart + "superdave938/",
-    viewplus    : d.fanart + "viewplus/",
-    vista       : d.fanart + "vista/",
-    wuh         : d.fanart + "wuh/",
-}
 
 // DISCLAIMER:
 // panels are dated by their Current Epoch Unix Timestamp!
 
 const template_tweet = document.getElementById("template_tweet");
+const template_fanart = document.getElementById("template_fanart");
 
 const siteMap = new Map();
 siteMap.set("home",     "index.html");
@@ -71,7 +57,7 @@ const characterTemplate   = {
 }
 async function getJSON() {
     if (JSON === undefined) {
-        console.log("DRONE [getJSON()]: Global JSON undefined; fetching...")
+        console.log("Global JSON undefined; fetching...")
         const RESPONSE  = await fetch("archive/archive.json");
         JSON            = await RESPONSE.json();
     }
@@ -104,40 +90,35 @@ async function twitterHandlr(selected) {
         return;
     }
     if (selected === undefined || selected === null) {
-        for (arc of JSON.arcs) {
-            await twitter(arc);
-        }
+        console.error("Failed to find arc by ID; aborting...")
     } else {
-        for (arc of JSON.arcs) {
-            switch (typeof selected) {
-                case "array":
-                    for (id of selected) {
-                        if (arc.id == id) {
-                            await twitter(arc);
-                        } else {
-                            continue;
-                        }
-                    }
+        var requested = document.getElementById(selected);
+        var all = document.getElementById("twt");
+        for (container of all.children) {
+            container.style.display = "none";
+        }
+        if (requested) {
+            requested.style.display = "contents";
+        } else {
+            for (arc of JSON.arcs) {
+                if (arc.id == selected) {
+                    await twitter(arc);
                     break;
-                default:
-                    if (arc.id == selected) {
-                        await twitter(arc);
-                    }
-                    break;
+                }
             }
-        };
-
-        //for (arcID of selected) {
-        //    await twitter(arc);
-        //}
+        }
+        for (arc of JSON.arcs) {
+            if (arc.id == selected) {
+                document.getElementById("description").innerHTML = arc.description;
+                break;
+            }
+        }
     }
-
 }
 async function twitter(arc) {
+    var container = document.createElement("div");
+    container.id = arc.id;
     for (panel of arc.panels) {
-            if (panel.breakpoint == true) {
-                return;
-            }
             var clone   = document.importNode(template_tweet.content, true);
             var tweet   = clone.querySelector(".tweet");
             
@@ -178,14 +159,14 @@ async function twitter(arc) {
                     var elm;
                     switch (filetype) {
                         case ".mp4":
-                            elm = document.createElement("video");
-                            src = document.createElement("source");
-                            src.src = archive + arc.directory + file;
-                            src.type = "video/mp4";
+                            elm                 = document.createElement("video");
+                            src                 = document.createElement("source");
+                            src.src             = archive + arc.directory + file;
+                            src.type            = "video/mp4";
                             elm.appendChild(src);
-                            elm.controls = true;
-                            elm.muted = true;
-                            elm.autoplay = true;
+                            elm.controls        = true;
+                            elm.muted           = true;
+                            elm.autoplay        = true;
                             break;
                         case ".png":
                         case ".jpg":
@@ -202,8 +183,12 @@ async function twitter(arc) {
             if (panel.unix !== null) {
                 time.innerHTML = await unixHandlr("twitter", panel.unix)
             }
-            document.getElementById(arc.id).appendChild(clone)
+            if (panel == arc.panels[0]) {
+                clone.id = arc.id;
+            }
+            container.appendChild(clone)
     }
+    document.getElementById("twt").appendChild(container);
     return true;
 }
 const months = {
@@ -242,3 +227,56 @@ async function unixHandlr(format, unix) {
             return months[month] + " " + day + " " + year + " " + hours + ":" + minutes + " (UTC" + offset + ")";
     }
 };
+
+const fanartArea = document.getElementById("fanart");
+async function fanartHandlr() {
+    var data    = await getJSON();
+
+    for (artist of data.fanart.artists) {
+        for (art of data.fanart.art[artist[0]]) {
+            var clone   = document.importNode(template_fanart.content, true);
+            var body    = clone.querySelector("article");
+            var media   = body.querySelector("img");
+            var link    = body.querySelector("a");
+            var label   = body.querySelector("label");
+            if (art.slice(-3) == "mov" || art.slice(-3) == "mp4") {
+                body.removeChild(media);
+                var video           = document.createElement("video");
+                    video.controls  = true;
+                    video.muted     = true;
+                    video.autoplay  = true;
+                    video.loop      = true;
+                    video.preload   = "none";
+                    video.loading   = "lazy";
+                    video.classList.add("gold");
+                var source          = document.createElement("source");
+                source.src          = d.fanart + art;
+                video.appendChild(source);
+                body.insertBefore(video, link);
+            } else {
+                media.src = d.fanart + art;
+            }
+            
+
+            link.href = artist[1];
+            label.innerHTML = "@" + artist[0];
+
+            fanartArea.appendChild(clone);
+        }
+    }
+}
+
+function loadPage(page) {
+    switch (page) {
+        case "tweets":
+            twitterHandlr("win7");
+            document.getElementById("arcSelect").addEventListener("change", (event) => {
+                var option = event.target.value;
+                twitterHandlr(option);
+            })
+            break;
+        case "fanart":
+            fanartHandlr();
+            break;
+    }
+}

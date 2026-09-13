@@ -10,7 +10,7 @@
 
         </style>
     </head>
-    <body>
+    <body onload="loadPage('tweets')">
         <!-- Emojis courtesy of Twemoji, used under the CC-BY-4.0 license -->
         <!-- https://github.com/twitter/twemoji -->
         <template id="template_tweet">
@@ -31,10 +31,10 @@
                     <div class="media one"> <!-- media -->
                     </div>
                     <div class="decoratives">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        <button></button>
+                        <button></button>
+                        <button></button>
+                        <button></button>
                     </div>
                     <span class="time">
                         <!-- time -->
@@ -64,20 +64,21 @@
                     </div>
                 </header>
                 <main class="tweets">
-                    <div>
-                        <div class=".twitter" id="win7">
-                        
+                    <div class="menu">
+                        <div>
+                            <label>Eras (select one):</label>
+                            <select id="arcSelect">
+                                <option value="win7" selected>Windows 7</option>
+                                <option value="winvista">Windows Vista</option>
+                                <option value="bunkerbots">Bunkerbots Collab</option>
+                            </select>
+                            <label>Description:</label>
+                            <span id="description">
+                                
+                            </span>
                         </div>
                     </div>
-                    <div>
-                        <div class=".twitter" id="winvista">
-                        
-                        </div>
-                    </div>
-                    <div>
-                        <div class=".twitter" id="bunkerbots">
-                        
-                        </div>
+                    <div class="twitter" id="twt">
                     </div>
                 </main>
             </section>

@@ -10,7 +10,44 @@
 
         </style>
     </head>
-    <body>
-        
+    <body onload="loadPage('fanart')">
+        <template id="template_fanart">
+            <article>
+                <img preload="none" loading="lazy" class="gold">
+                <a>
+                    <label class="gold"></label>
+                </a>
+            </article>
+        </template>
+
+        <div id="all">
+            <div class="spacer top"></div>
+            <section id="content" class="window" style="max-height: 900px;">
+                <header class="decoratives">
+                    <div class="buttons">
+                        <button>_</button>
+                        <button>☐</button>
+                        <button>X</button>
+                    </div>
+                    <div class="searchbar">
+                        <div>
+                            <button style="margin-right: calc(var(--gap) * 0.4);"></button> <!-- Buttons are non-functional but I'm writing them like this incase I want to make them do something later -D-->
+                            <button></button>
+                            <span>▾</span>
+                        </div>
+                        <label>
+                            <img src="assets/getting_started.ico">
+                            <span>«</span> Vastina Archive <span>▸</span> Fanart Gallery
+                        </label>
+                        <label style="justify-content: space-between;"><i>Search</i><img src="assets/search.ico"></label>
+                    </div>
+                </header>
+                <main class="fanart">
+                    <div id="fanart">
+                    </div>
+                </main>
+            </section>
+        </div>
     </body>
+    <script src="archive/archive.js"></script>
 </html>
