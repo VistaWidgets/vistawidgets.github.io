@@ -58,24 +58,6 @@ i {
     left: 0;
     right: 0;
 }
-@media (max-width: 1000px) {
-    #all {
-        max-width: 900px;
-    }
-}
-@media (max-width: 950px) {
-    #all {
-        max-width: 800px;
-    }
-}
-@media (max-width: 850px) {
-    #all {
-        max-width: 700px;
-    }
-    .window .decoratives {
-        display: none;
-    }
-}
 #content {
     height: 100%;
 }
@@ -87,7 +69,8 @@ i {
         to right, 
         rgba(240, 255, 255, 0.67),
         rgba(122, 168, 204, 0.5),
-        rgba(240, 255, 255, 0.33));
+        rgba(240, 255, 255, 0.33)
+    );
     backdrop-filter: blur(5px);
     border-radius: 10px;
     border: var(--border_1);
@@ -102,7 +85,7 @@ i {
 }
 .window .decoratives > .buttons {
     display: grid;
-    width: 100px;
+    width: 125px;
     height: 25px;
     margin-left: auto;
     grid-template-columns: 1fr 1fr 2fr;
@@ -114,25 +97,65 @@ i {
     text-align: center;
     vertical-align: center;
     color: #FFF;
-    font-weight: 900;
+    font-weight: bold;
     pointer-events: none;
-    background-color: #FFF;
+    position: relative;
+    background-image: linear-gradient(
+        to bottom, 
+        rgba(240, 255, 255, 0.67),
+        rgb(122, 168, 204, 0.0),
+        rgba(240, 255, 255, 0.33)
+    );
+    box-shadow: inset 0 0 0 1px rgba(240, 255, 255, 0.5);
+    -webkit-text-stroke: 3px rgb(82, 111, 131);
+    paint-order: stroke fill;
+}
+.window .decoratives > .buttons button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    background-color: rgba(255,255,255,0.33);
 }
 .window .decoratives > .buttons > button:first-child {
     border-bottom-left-radius: 10px;
     border-right: none;
+    padding-bottom: 4px;
 }
 .window .decoratives > .buttons > button:last-child {
     border-bottom-right-radius: 10px;
+    border-left: none;
+    background: linear-gradient(
+        to left,
+        rgb(167, 37, 19, 0.9),
+        rgba(216, 61, 40, 0.9) 20%,
+        rgba(216, 61, 40, 0.9) 80%,
+        rgb(167, 37, 19, 0.9)
+    );
+    box-shadow: inset 0 0 0 1px rgba(255, 207, 207, 0.9);
+}
+.window .decoratives > .searchbar {
+    display: grid;
+    grid-template-columns: auto 3fr auto 2fr;
+    align-items: center;
+}
+.window .decoratives > .searchbar > label:last-child {
+    justify-content: space-between;
+    margin-left: 4px;
+}
+.window .decoratives > .searchbar > label:nth-child(3) {
     border-left: none;
 }
 .window .decoratives > .searchbar > label {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #FFF;
+    background-color: rgba(255,255,255,0.67);
+    color: rgba(0,0,0,0.67);
     border: var(--border_1);
-    border-radius: 5px;
     height: 30px;
     padding: 4px;
     gap: calc(var(--gap) * 0.5);
@@ -145,19 +168,26 @@ i {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+.window .decoratives > .searchbar > div span {
+    position: relative;
+    margin: 4px;
+    top: 5px;
+}
 .window .decoratives > .searchbar button {
     all: unset;
     border-radius: 100%;
     height: 35px;
     width: 35px;
-    background-color: white;
     border: var(--border_1);
-}
-.window .decoratives > .searchbar {
-    display: grid;
-    grid-template-columns: auto 3fr 2fr;
-    align-items: center;
-    gap: calc(var(--gap) * 0.75);
+    background-image: linear-gradient(
+        to bottom, 
+        rgba(240, 255, 255, 0.67),
+        rgb(122, 168, 204, 0.0),
+        rgba(240, 255, 255, 0.33)
+    );
+    box-shadow: inset 0 0 0 1px rgba(240, 255, 255, 0.5);
+    -webkit-text-stroke: 3px rgb(82, 111, 131);
+    paint-order: stroke fill;
 }
 .window > main {
     border: inherit;
@@ -504,19 +534,18 @@ main.fanart {
     background-repeat: repeat;
     background-size: 333px;
     overflow: hidden;
-    padding: calc(var(--gap) * 2);
-    padding-top: 0;
-    padding-bottom: 0;
 }
 #fanart {
     overflow: scroll;
     overflow-x: hidden;
-    scrollbar-width: none;
+    scrollbar-width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: var(--gap);
+    column-gap: var(--gap);
+    row-gap: calc(var(--gap) * 2);
+    padding: calc(var(--gap) * 2);
     width: 100%;
     height: 100%;
 }
@@ -524,11 +553,10 @@ main.fanart {
     display: flex;
     flex-direction: column;
     gap: calc(var(--gap) * 0.5);
-    margin-top: var(--gap);
 }
 #fanart > article img,
 #fanart > article video {
-    max-height: 200px;
+    max-height: 225px;
 }
 #fanart > article label {
     cursor: pointer;
@@ -549,4 +577,103 @@ main.fanart {
     border-left-color:#ffe798;
     border-right-color:rgb(190, 134, 13);
     border-bottom-color:rgb(190, 134, 13);
+}
+main.about {
+    font-size: 16px;
+    background-color: #FFF;
+    font-family: consolas, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: calc(var(--gap) * 2);
+}
+main.about > .info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    height: 500px;
+}
+main.about img {
+    width: 100%;
+}
+main.about > .info div {
+    margin-block: 0;
+    padding: calc(var(--gap));
+    
+}
+main.about > .info label {
+    
+}
+main.about > .info label.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+main.about > .info table {
+    display: inline-block;
+    margin: 8px;
+    margin-left: -1px;
+}
+main.about > .info table th,
+main.about > .info table td {
+    text-align: left;
+    padding: calc(0.5 * var(--gap));
+    border: 1px solid #000;
+}
+main.about > .references {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: calc(var(--gap) * 2);
+    gap: calc(var(--gap) * 2);
+}
+main.about .imgcaption {
+    display: flex;
+    flex-direction: column;
+}
+main.about .imgcaption label {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+@media (max-width: 1200px) {
+    #all {
+        max-width: 900px;
+    }
+    #content {
+        height: auto;
+    }
+}
+@media (max-width: 900px) {
+    #all {
+        max-width: 800px;
+    }
+}
+@media (max-width: 800px) {
+    #all {
+        max-width: 650px;
+    }
+    .apps > main {
+        grid-template-columns: 1fr 1fr;
+        font-size: 0.75em;
+    }
+}
+@media (max-width: 750px) {
+    #all {
+        max-width: 500px;
+    }
+    .tweets {
+        width: 100%;
+        background-color: #FFF;
+        display: grid;
+        grid-template-rows: auto auto;
+        overflow: hidden;
+        scrollbar-width: none;
+    }
+}
+@media (max-width: 750px) {
+    #all {
+        max-width: 100%;
+    }
+    .window .decoratives {
+        display: none;
+    }
+    .spacer {
+        display: none;
+    }
 }

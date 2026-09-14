@@ -44,14 +44,15 @@
             ["Fanitizer", "https://x.com/fanitizer"],
             ["dinotheawesome", "https://x.com/dinotheawesome"],
             ["jacques_ladder", "https://x.com/jacques_ladder"],
-            ["blueberyramune", "https://x.com/blueberyramune"],
+            ["blueberyramune.bsky.social", "https://bsky.app/profile/blueberyramune.bsky.social"],
             ["SuperDave938", "https://x.com/superdave938"],
             ["THEPRANKSTER413", "https://x.com/THEPRANKSTER413"],
             ["BUBBLE_BOT_RON", null],
             ["R4ndom__Person", "https://x.com/R4ndom__Person"],
             ["Braindontgood", "https://x.com/braindontgood"],
             ["Rubysvn", "https://x.com/rubysvndev"],
-            ["ABSTRACTYPaint", "https://x.com/ABSTRACTYPaint"]
+            ["ABSTRACTYPaint", "https://x.com/ABSTRACTYPaint"],
+            ["eldin.ca (bsky)", "https://bsky.app/profile/eldin.ca"]
         ],
         "art": {
             "vi_NoContext": [
@@ -150,17 +151,20 @@
             "jacques_ladder": [
                 "cecile.png"
             ],
-            "blueberyramune": [
+            "blueberyramune.bsky.social": [
                 "blueberyramune/1.jpg",
                 "blueberyramune/2.png",
                 "blueberyramune/3.png",
-                "blueberyramune/4.jpg"
+                "blueberyramune/4.jpg",
+                "blueberyramune/nowkiss.gif",
+                "blueberyramune/mii_explainer_nation.webp"
             ],
             "SuperDave938": [
                 "SuperDave938/1.png",
                 "SuperDave938/2.png",
                 "SuperDave938/3.png",
-                "SuperDave938/4.png"
+                "SuperDave938/4.png",
+                "SuperDave938/bots2.webp"
             ],
             "THEPRANKSTER413": [
                 "THEPRANKSTER413/1.png",
@@ -177,11 +181,13 @@
                 "Braindontgood/2.png"
             ],
             "Rubysvn": [
-                "Rubysvn/rubysvn.png",
-                "Rubysvn/nowkiss.gif"
+                "Rubysvn/rubysvn.png"
             ],
             "ABSTRACTYPaint": [
                 "ABSTRACTY.jpg"
+            ],
+            "eldin.ca (bsky)": [
+                "eldin.webp"
             ]
         }
     },

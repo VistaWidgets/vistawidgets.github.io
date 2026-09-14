@@ -21,7 +21,7 @@ const template_fanart = document.getElementById("template_fanart");
 const siteMap = new Map();
 siteMap.set("home",     "index.html");
 siteMap.set("tweets",   "tweets.html");
-siteMap.set("assets",   "assets.html");
+siteMap.set("about",    "about.html");
 siteMap.set("fanart",   "fanart.html");
 siteMap.set("accounts", "accounts.html");
 
@@ -30,7 +30,7 @@ siteMap.set("tina",         "https://x.com/VistaWidgetOFFT");
 siteMap.set("drone",        "https://x.com/computerlings");
 siteMap.set("strawpage",    "https://vistawidgets.straw.page/");
 siteMap.set("boundaries",   "https://vistawidgets.straw.page/ooc");
-siteMap.set("gmod",   "https://steamcommunity.com/sharedfiles/filedetails/?id=3717482414");
+siteMap.set("gmod",         "https://steamcommunity.com/sharedfiles/filedetails/?id=3717482414");
 function linkTo(pageName) { // of course I could just use <a> but this lets me add my own logic....... -D
     var page = siteMap.get(pageName);
     if (page) {
@@ -58,7 +58,7 @@ const characterTemplate   = {
 async function getJSON() {
     if (JSON === undefined) {
         console.log("Global JSON undefined; fetching...")
-        const RESPONSE  = await fetch("archive/archive.json");
+        const RESPONSE  = await fetch("archive/archive.json?v=1.11");
         JSON            = await RESPONSE.json();
     }
     return JSON;
@@ -113,6 +113,7 @@ async function twitterHandlr(selected) {
                 break;
             }
         }
+        all.scrollTo(0,0);
     }
 }
 async function twitter(arc) {
