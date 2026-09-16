@@ -291,6 +291,24 @@
                 },
                 {
                     "from": "Vastina",
+                    "text": "Do You Guys Like Super Mario???? :D",
+                    "file": [],
+                    "unix": 1758391590
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hey Guys!!!!!! Sorry For Not Tweeting Much Today!!!! :/ Just Didn't Have Many Ideas... LOL! :D",
+                    "file": [],
+                    "unix": 1758422430
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!!!! :D",
+                    "file": [],
+                    "unix": 1758432206
+                },
+                {
+                    "from": "Vastina",
                     "text": "Good Morning Everyone! How Are You?",
                     "file": ["11.png"],
                     "unix": 1758460571
@@ -303,6 +321,18 @@
                 },
                 {
                     "from": "Vastina",
+                    "text": "1) \\\\I didn't grow up with vista or windows 7, and ironically i dont really know much about those operating systems, so my fault! (2nd answer in replies)\n\n2) Yeah! Of Course They Can! And Other Widgets? I Can Chose Any Widget! But I Decided I Looked Best With These Two! :D \\Other widgets? well I had to recreate these assets from scratch because i couldnt find any svgs, so if i wanted more i could make them, but god im lazy. lol.",
+                    "file": ["gimmicks/10.png"],
+                    "unix": 1758497461
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!!!! :D",
+                    "file": [],
+                    "unix": 1758508237
+                },
+                {
+                    "from": "Vastina",
                     "text": "Good Morning Everyone! How Are You Guys?? :D",
                     "file": ["12.png"],
                     "unix": 1758584182
@@ -312,6 +342,12 @@
                     "text": "Why Wouldn't The Temperature Change Silly? It Says The Current Temperature!!! :P",
                     "file": ["gimmicks/11.png"],
                     "unix": 1758602811
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!!! Hope Things Go Well!!! :D\n\n\\\\\\Every other gimmick having deep lore while im over here just being a 2 cute clocks goofing around",
+                    "file": [],
+                    "unix": 1758590342
                 },
                 {
                     "from": "Vastina",
@@ -351,19 +387,42 @@
                 },
                 {
                     "from": "Vastina",
-                    "text": null,
-                    "file": ["gimmick2.mp4"],
-                    "unix": null
+                    "text": "It Was Actually Farenheit! Well Until Someone Switched It To Celsius Yesterday...\n\nOh Wait, I see What You Meant Now XD Sorry I Misread Your Question, My Computer Is In A Hot Part Of The World!!! That's Probably Why, LOL!",
+                    "file": ["gimmicks/17.png"],
+                    "unix": 1758715702
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Question For Computer Owners... How Did You Guys Get Your Computers? I Wanna Hear Some Stories!!! :D",
+                    "file": [],
+                    "unix": 1758757481
+                },
+                {
+                    "from": "Vastina",
+                    "text": "//I might make a retcon of the wallpaper so its actually windows vista",
+                    "file": [],
+                    "unix": 1758763975
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!!!! :D",
+                    "file": [],
+                    "unix": 1758769811
                 }
-            ],
-            "gimmicks": 17
+            ]
         },
         {
-            "id": "winvista",
-            "name": "Windows Vista Era",
+            "id": "2025",
+            "name": "2025",
             "description": "Vastina comes into her own here... adopts real Vista theming & starts roleplaying in earnest!!",
-            "directory": "twitter/2_winvista/",
+            "directory": "twitter/2_2025/",
             "panels": [
+                {
+                    "from": "Vastina",
+                    "text": "Good Morning Everybody!!! :D",
+                    "file": [],
+                    "unix": 1758716267
+                },
                 {
                     "from": "Vastina",
                     "text": null,
@@ -381,6 +440,18 @@
                     "text": "Good Morning!!!! :D\nHow Are You Guys?? :P",
                     "file": ["2.png"],
                     "unix": 1758886884
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hey Guys!!!! :D",
+                    "file": [],
+                    "unix": 1758927383
+                },
+                {
+                    "from": "Vastina",
+                    "text": "I've Wondered What I Would Look Like As A Human...",
+                    "file": [],
+                    "unix": 1758934594
                 },
                 {
                     "from": "Vastina",
@@ -432,6 +503,12 @@
                 },
                 {
                     "from": "Vastina",
+                    "text": "Goodnight Everyone!! :D",
+                    "file": [],
+                    "unix": 1759206133
+                },
+                {
+                    "from": "Vastina",
                     "text": "Good Morning Everyone! :D",
                     "file": ["8.png"],
                     "unix": 1759144774
@@ -452,7 +529,13 @@
                     "from": "Vastina",
                     "text": "You're What... :o",
                     "file": ["gimmicks/4_.png", "12.png"],
-                    "unix": null
+                    "unix": 1759265167
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everybody!!! Have A Good Sleep!!! :3",
+                    "file": [],
+                    "unix": 1759294669
                 },
                 {
                     "from": "Vastina",
@@ -468,15 +551,39 @@
                 },
                 {
                     "from": "Vastina",
+                    "text": "Goodnight!!! :D",
+                    "file": [],
+                    "unix": 1759376666
+                },
+                {
+                    "from": "Vastina",
                     "text": "Good Morning!!! :D",
                     "file": ["15.png"],
                     "unix": 1759412969
                 },
                 {
                     "from": "Vastina",
-                    "text": "Good Morning!!! How Is Everyone?? :D",
+                    "text": "Hey Guys!!! :D",
+                    "file": [],
+                    "unix": 1759433508
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!!! :D",
+                    "file": [],
+                    "unix": 1759461550
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Good Morning!!!\nHow Is Everyone?? :D",
                     "file": ["16.png"],
                     "unix": 1759501605
+                },
+                {
+                    "from": "Vastina",
+                    "text": "@colourpa1ette I Drew You!!! :D",
+                    "file": ["doodles/2.png"],
+                    "unix": 1759504656
                 },
                 {
                     "from": "Vastina",
@@ -486,332 +593,1035 @@
                 },
                 {
                     "from": "Vastina",
+                    "text": "\\\\I dont think it was obvious but this account takes place 10 years ago (2015 as of now), which is why Vastina doesnt know some pieces of media, like Deltarune, Nintendo Switch 1 and 2, etc.",
+                    "file": [],
+                    "unix": 1759538048
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Dude...\n\n@URc0mputer_ @colourpa1ette It's You Two! :D",
+                    "file": ["doodles/3.png"],
+                    "unix": 1759544059
+                },
+                {
+                    "from": "Vastina",
+                    "text": null,
+                    "file": ["doodles/4.jpg"],
+                    "unix": 1759544816
+                },
+                {
+                    "from": "Vastina",
+                    "text": "New Gallery Button!!! :D\nNow You Guys Can View All The Art And Doodles Ive Posted Here!!! :D And If You Click On Them You Go To The Original Tweet!",
+                    "file": ["_1.png"],
+                    "unix": 1759546286
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everybody!!! :D",
+                    "file": [],
+                    "unix": 1759547753
+                },
+                {
+                    "from": "Vastina",
+                    "text": "New Banner!!! Do You Guys Like It? :D",
+                    "file": ["_2.jpg"],
+                    "unix": 1759549047
+                },
+                {
+                    "from": "Vastina",
                     "text": "Good Morning Everyone! :D",
                     "file": ["17.png"],
-                    "unix": null
+                    "unix": 1759584412
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Oh Yeah? Watch This.",
+                    "file": ["_3.mp4"],
+                    "unix": 1759588078
+                },
+                {
+                    "from": "Vastina",
+                    "text": null,
+                    "file": ["gimmicks/7.png", "backflip.mp4"],
+                    "unix": 1759588078
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Drawing EVERYONE I Follow!!! (Part 1)\n@ABSTRACTYPaint\n#RADONOVERLORD\n@vistanaero\n@R4ndom__Person\n@Fridgedj_\n@loopythelaptop\n@Qu3stion_\n@jez__05\n@LUMIN3XBOT\n@AGuyWithBlue\n@the_employ33)",
+                    "file": ["doodles/9.png"],
+                    "unix": 1759616950
+                },
+                {
+                    "from": "Vastina",
+                    "text": null,
+                    "file": ["gimmicks/8.png", "doodles/5.png"],
+                    "unix": 1759620354
+                },
+                {
+                    "from": "Vastina",
+                    "text": null,
+                    "file": ["doodles/6.png"],
+                    "unix": 1759621619
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Smooch Or No Smooch?",
+                    "file": ["doodles/7.png"],
+                    "unix": 1759624590
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Someone Is Gay!",
+                    "file": ["doodles/8.png"],
+                    "unix": 1759626808
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Is This A Ligma..?",
+                    "file": ["gimmicks/10.png"],
+                    "unix": 1759630013
+                },
+                {
+                    "from": "Vastina",
+                    "text": "I Think It's Time To Log Off, Goodnight Everyone! :D",
+                    "file": [],
+                    "unix": 1759632887
+                },
+                {
+                    "from": "Vastina",
+                    "text": null,
+                    "file": ["doodles/11.png"],
+                    "unix": 1759632887
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everyone!",
                     "file": ["18.png"],
-                    "unix": null
+                    "unix": 1759574364
+                },
+                {
+                    "from": "Vastina",
+                    "text": "@Urc0mputer_",
+                    "file": ["doodles/12.png"],
+                    "unix": 1759575331
+                },
+                {
+                    "from": "Vastina",
+                    "text": "@R3vesAI",
+                    "file": ["doodles/13.jpg"],
+                    "unix": 1759575835
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Drawing EVERYONE I Follow!!! (Part 2)\n@BozLaboratories\n@t3chnologylov3r @STARDRIVEN10 @Vizion_Of_RS\n@vadelovesdrawin @DAV3_001\n#AcePosting @3DigitalMindz\n@THEPRANKSTER413\n@interloperwork\n@Malware_Unit404\n@chesedcoffeeman",
+                    "file": ["doodles/14.png"],
+                    "unix": 1759582688
+                },
+                {
+                    "from": "Vastina",
+                    "text": "The gays @colourpa1ette @URc0mputer_",
+                    "file": ["doodles/15.png"],
+                    "unix": 1759593372
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!!! :D",
+                    "file": [],
+                    "unix": 1759630786
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everyone! How Are You All Feeling?",
                     "file": ["19.png"],
-                    "unix": null
+                    "unix": 1759751769
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Drawing EVERYONE I Follow!!! (Part 3)\n@bestf1shever\n@bluescreenedd\n@the_coder244\n@Bing0B0ngo\n@colourpa1ette @URc0mputer_\n@kidpixie1995\n@R3vesAI\n@ST3LLAWARE\n@THE_S1LLY0NE\n@TherapyAI555\n@L0CK3T_CRYPT",
+                    "file": ["doodles/16.png"],
+                    "unix": 1759761307
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\making concepts for a humanoid vastina but i cant draw humans so this is all its ever gonna be... lol\n\n\\\\her body would be robotic.. like its controlled by a controller... since vastina isnt the actual pc and is instead just a program on it, she controls her body like a video game character!",
+                    "file": ["doodles/17.jpg"],
+                    "unix": 1759767255
+                },
+                {
+                    "from": "Vastina",
+                    "text": "My Name Is Actually \"Long Horn Assistant\"! But I Didn't Like That Name So I Changed It To Just \"Vastina\"! XD",
+                    "file": ["gimmicks/10_.png"],
+                    "unix": 1759770120
+                },
+                {
+                    "from": "Vastina",
+                    "text": "I'm Feeling Great! :D",
+                    "file": ["gimmicks/11.png"],
+                    "unix": 1759774601
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Thank You! But... This Tastes Like Glass...",
+                    "file": ["gimmicks/12.png", "gimmicks/13.png"],
+                    "unix": 1759781702
+                },
+                {
+                    "from": "Vastina",
+                    "text": "I'm Logging Off Now, Goodnight! :D",
+                    "file": [],
+                    "unix": 1759802042
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning!!! :D",
                     "file": ["20.png"],
-                    "unix": null
+                    "unix": 1759835707
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Drawing EVERYONE I Follow!!! (Part 4)\n@V1EWPLUS_996\n@softestbutch_\n@bestdealer2007\n@inoslaptop\n@ShipModel02\n@v1rusv1rusv1rus\n@RetholesBoy\n@DavidCabel83099\n@DigiBytes101\n@R3MSL33P_\n@pr0t0t7p3",
+                    "file": ["doodles/18.png"],
+                    "unix": 1759843117,
+                    "source": "https://x.com/VistaWidgets/status/1975551590607229192"
+                },
+                {
+                    "from": "Vastina",
+                    "text": "@vistanaero",
+                    "file": ["doodles/19.png"],
+                    "unix": 1759858282
                 },
                 {
                     "from": "Vastina",
                     "text": "Hey Guys!!! :D",
                     "file": ["21.png"],
-                    "unix": null
+                    "unix": 1759861195
                 },
                 {
                     "from": "Vastina",
-                    "text": "Good Morning, Everybody!!! :D",
-                    "file": ["22.png"],
-                    "unix": null
+                    "text": "I Don't Know Who This Is... But They Look Cute!!! :D",
+                    "file": ["gimmicks/14.png"],
+                    "unix": 1759882134
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight   Everyone !",
+                    "file": [],
+                    "unix": 1759888428
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\ive had ideas for vastinas crush, however i dont know if the account owner would be comfortable with it so im not doing anything until i get permission... lol...",
+                    "file": [],
+                    "unix": 1759888710
+                },
+                {
+                    "from": "Vastina",
+                    "text": "It's.. Personal. Ask Him, Not Me.",
+                    "file": ["gimmicks/16.png"],
+                    "unix": 1759944608
+                },
+                {
+                    "from": "Vastina",
+                    "text": "I've Been... Thinking.... ^//^",
+                    "file": [],
+                    "unix": 1759957758
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\not finishing this",
+                    "file": ["doodles/20.mp4"],
+                    "unix": 1759968150
+                },
+                {
+                    "from": "Vastina",
+                    "text": null,
+                    "file": ["doodles/21.png"],
+                    "unix": 1759974743
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight, Everyone! :3",
+                    "file": [],
+                    "unix": 1759976297
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning!!!!! :D",
                     "file": ["23.png"],
-                    "unix": null
+                    "unix": 1760010581
                 },
                 {
                     "from": "Vastina",
-                    "text": "Ugh... What... Happened...?",
+                    "text": "Another Vista..? Who Are You? Introduce Yourself! :D",
+                    "file": ["gimmicks/17.png"],
+                    "unix": 1760046779
+                },
+                {
+                    "from": "Vastina",
+                    "text": "@URc0mputer_ A GUN?",
+                    "file": ["doodles/22.png"],
+                    "unix": 1760058303
+                },
+                {
+                    "from": "Vastina",
+                    "text": "[Booting... Up...]\n\nUgh... What... Happened...?",
                     "file": ["24.png"],
-                    "unix": null
+                    "unix": 1760099671
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hey Guys! :D",
+                    "file": [],
+                    "unix": 1760124126
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Awh Man... That's Okay! :D",
+                    "file": ["gimmicks/18.png"],
+                    "unix": 1760129065
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight, Everynyan! :D",
+                    "file": [],
+                    "unix": 1760154572
+                },
+                {
+                    "from": "Vastina",
+                    "text": ":3",
+                    "file": ["gimmicks/19.png"],
+                    "unix": 1760185044
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning!!! :D",
                     "file": ["25.png"],
-                    "unix": null
+                    "unix": 1760186005
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight.",
+                    "file": [],
+                    "unix": 1760235161
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning... :D",
                     "file": ["26.png"],
-                    "unix": null
+                    "unix": 1760273575
+                },
+                {
+                    "from": "Vastina",
+                    "text": "I... Can't. But... Sometimes I Look At Photos Of Stars... They're Pretty...",
+                    "file": ["gimmicks/19_.png"],
+                    "unix": 1760295335
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hello ! :D\nWho Are You? :3",
+                    "file": ["gimmicks/19__.png"],
+                    "unix": 1760317169
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning!! :D",
                     "file": ["27.png"],
-                    "unix": null
+                    "unix": 1760355449
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\ IM A NOOBIE",
+                    "file": ["_6.jpg"],
+                    "unix": 1760395852
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight! :D",
+                    "file": [],
+                    "unix": 1760420733
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everybody!",
                     "file": ["28.png"],
-                    "unix": null
+                    "unix": 1760454091
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight, Everyone! :3",
+                    "file": [],
+                    "unix": 1760501232
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning!",
                     "file": ["29.png"],
-                    "unix": null
+                    "unix": 1760534396
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\ do you guys like my family tree",
+                    "file": ["_7.png"],
+                    "unix": 1760538890
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\ non-canon, alternate timeilne @Qu3stion_",
+                    "file": ["doodles/23.jpg"],
+                    "unix": 1760578011
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\ duuuude",
+                    "file": ["doodles/24.png"],
+                    "unix": 1760578936
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! :D\n\nGoodnight, Mother!!! @vistanaero",
+                    "file": [],
+                    "unix": 1760582388
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everyone! :D",
                     "file": ["30.png"],
-                    "unix": null
+                    "unix": 1760620350
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight! :D",
+                    "file": [],
+                    "unix": 1760675277
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everyone! Guess What Today Is!! :D",
                     "file": ["31.png"],
-                    "unix": null
+                    "unix": 1760702805
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Slenderman...? Not On My Birthday!!!!",
+                    "file": ["gimmicks/20.png"],
+                    "unix": 1760714194
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone! Happy Birthday To Me! :D",
+                    "file": [],
+                    "unix": 1760755058
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everyone! :D",
                     "file": ["32.png"],
-                    "unix": null
+                    "unix": 1760791162
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!! :D",
+                    "file": [],
+                    "unix": 1760840197
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning, Everyone!",
                     "file": ["33.png"],
-                    "unix": null
+                    "unix": 1760883167
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\ @Fridgedj_",
+                    "file": ["doodles/25.mp4"],
+                    "unix": 1760932614
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight, Everyone! >:D\n\n@Qu3stion_ Goodnight, Sweetheart!~ >;3",
+                    "file": ["doodles/25.mp4"],
+                    "unix": 1760934301
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning! :D",
                     "file": ["34.png"],
-                    "unix": null
+                    "unix": 1760965090
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\",
+                    "file": ["doodles/26.mp4"],
+                    "unix": 1760966637
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Windows Longhorn? That's Me, Silly! Also No.",
+                    "file": ["gimmicks/22.png"],
+                    "unix": 1760972681
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hey Sweetheart!~ (I Love My Red Evil Girlfailure Of A Wife...)",
+                    "file": ["gimmicks/23.png"],
+                    "unix": 1761016148
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight, Everynyan!!! :D",
+                    "file": [],
+                    "unix": 1761017708
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Sunrise Everyone! XD",
+                    "file": ["34_.png"],
+                    "unix": 1761049975
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight, Everyone!!! :D\n\nGoodnight @Qu3stion_ @vistanaero !",
+                    "file": [],
+                    "unix": 1761105838
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning! :D",
                     "file": ["35.png"],
-                    "unix": null
+                    "unix": 1761142872
                 },
                 {
                     "from": "Vastina",
-                    "text": "Morning! :D",
-                    "file": ["36.png"],
-                    "unix": null
+                    "text": "Goodnight! :D",
+                    "file": [],
+                    "unix": 1761188099
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning!!! :D",
                     "file": ["37.png"],
-                    "unix": null
+                    "unix": 1761226463
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!!! :D",
+                    "file": [],
+                    "unix": 1761273954
                 },
                 {
                     "from": "Vastina",
                     "text": "Sunshine! :D",
                     "file": ["38.png"],
-                    "unix": null
+                    "unix": 1761313560
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hello Everyone!!! :D",
+                    "file": [],
+                    "unix": 1761349249
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\ humanoid xero concept @Fridgedj_",
+                    "file": ["doodles/27.png"],
+                    "unix": 1761361356
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight, Everynyan! XD",
+                    "file": [],
+                    "unix": 1761362443
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning! 👀",
                     "file": ["39.png"],
-                    "unix": null
+                    "unix": 1761402076
                 },
                 {
                     "from": "Vastina",
-                    "text": "Everyone! Say Good Morning To My Child!! :D",
+                    "text": "\\ @Fridgedj_\nbro got owned #LMAO",
+                    "file": ["39_.jpg"],
+                    "unix": 1761440847
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!!!!!!! :3c",
+                    "file": [],
+                    "unix": 1761450714
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Everyone! Say Good\nMorning To My Child!! :D @virtual_one1",
                     "file": ["40.png"],
-                    "unix": null,
-                    "extra": [
-                        {
-                            "type": "note",
-                            "name": "Note",
-                            "content": "That child is named \"Vi-1\" who is another computerling! You can find them on Twitter: [@virtual_one1]!"
-                        }
-                    ]
+                    "unix": 1761487043
+                },
+                {
+                    "from": "Vastina",
+                    "text": "I'm Bored...",
+                    "file": [],
+                    "unix": 1761497339
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! :D",
+                    "file": [],
+                    "unix": 1761531399
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning Everybody! :D",
                     "file": ["41.png"],
-                    "unix": null
+                    "unix": 1761571777
+                },
+                {
+                    "from": "Vastina",
+                    "text": "NOOOOOOOOO WHAT HAPPENED OH MY GOD",
+                    "file": ["gimmicks/24.png"],
+                    "unix": 1761571811
+                },
+                {
+                    "from": "Vastina",
+                    "text": "They Better Not Hurt My Child, That's For Sure! XD\nI'm Serious.",
+                    "file": ["gimmicks/25.png"],
+                    "unix": 1761590791
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everyone! What Are You Up Too? :D",
                     "file": ["42.png"],
-                    "unix": null
+                    "unix": 1761661187
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Woah.... It's Me!!! But... With A Body..? I Look Amazing!!! Thank You!! :D",
+                    "file": ["gimmicks/27.png"],
+                    "unix": 1761672326
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning!!!! :D",
                     "file": ["43.png"],
-                    "unix": null
+                    "unix": 1761749562
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hello!!! :D\nWho Might You Be..?",
+                    "file": ["gimmicks/28.png"],
+                    "unix": 1761763524
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hello!!! :D\nWho Might You Be..?\n\n\\\\ art by @vistanaero btw",
+                    "file": ["gimmicks/29.png", "doodles/28.mp4"],
+                    "unix": 1761770624
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!!!! :D",
+                    "file": [],
+                    "unix": 1761794086
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning Everybody! Seems To Be A Bit Chilly Out, Doesn't It? XD",
                     "file": ["44.png"],
-                    "unix": null
+                    "unix": 1761833949
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! :D",
+                    "file": [],
+                    "unix": 1761878858
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning...! I Wish I Could Trick Or Treat...",
                     "file": ["45.png"],
-                    "unix": null
+                    "unix": 1761913131
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\ sketch is done... does it look good guys?",
+                    "file": ["doodles/29.jpg"],
+                    "unix": 1761917692
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! :D",
+                    "file": [],
+                    "unix": 1761964374
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning!!!!!!!! :D",
                     "file": ["47.png"],
-                    "unix": null
+                    "unix": 1762003422
+                },
+                {
+                    "from": "Vastina",
+                    "text": "I Wish I Could See That...",
+                    "file": ["gimmicks/31.png", "gimmicks/32.png"],
+                    "unix": 1762003581
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!!! :D",
+                    "file": [],
+                    "unix": 1762007444
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning!!! :D",
                     "file": ["48.png"],
-                    "unix": null
+                    "unix": 1762105729
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Yes!!! I Love Art!!! :D",
+                    "file": ["gimmicks/33.png"],
+                    "unix": 1762111197
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!! :D",
+                    "file": [],
+                    "unix": 1762146521
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everyone! :D",
                     "file": ["49.png"],
-                    "unix": null
+                    "unix": 1762202040
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!!! :D",
+                    "file": [],
+                    "unix": 1762229264
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning Sunshines! :D",
                     "file": ["50.png"],
-                    "unix": null
+                    "unix": 1762266554
                 },
                 {
                     "from": "Vastina",
-                    "text": "Hello Lemon! Welcome To Tumblr!!! :D",
-                    "file": ["51.png"],
-                    "unix": null,
-                    "extra": [
-                        {
-                            "type": "note",
-                            "name": "Who is Lemon?",
-                            "content": "Lemon is another computerling, [@LEMONSYSEXE]!"
-                        }
-                    ]
+                    "text": "\\\\ couldnt resist drawing him again HES SO SILLY AND CUTE GRAH",
+                    "file": ["doodles/30.jpg"],
+                    "unix": 1762284248
                 },
                 {
                     "from": "Vastina",
-                    "text": "I Hope You Enjoy Your Stay Here!!!! XD",
-                    "file": ["52.png"],
-                    "unix": null
+                    "text": "\\\\ ok i did it again hes just fun to draw #LMAO",
+                    "file": ["doodles/31.png"],
+                    "unix": 1762280813
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\ doodles of vastinas mouth",
+                    "file": ["doodles/32.png"],
+                    "unix": 1762284324
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!!! :D",
+                    "file": [],
+                    "unix": 1762321372
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Morning Everyone!\nHow Are You Doing?? :D",
+                    "file": ["50_.jpg"],
+                    "unix": 1762361965
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Ohh... It Has To Be My Wife... Exclamation... She's So Evil And Cute!!! >:3c",
+                    "file": ["gimmicks/36.png"],
+                    "unix": 1762464104
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!! :D",
+                    "file": [],
+                    "unix": 1762494118
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning! I Saw A Cute Kitty...",
                     "file": ["53.png"],
-                    "unix": null
+                    "unix": 1762526291
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\ @Fridgedj_ happy birthday",
+                    "file": ["doodles/33.jpg"],
+                    "unix": 1762574233
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! :D",
+                    "file": [],
+                    "unix": 1762578833
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Morning Everyone!\nWhat's Your Favorite\nThing About Winter? :D\nFor Me It's How Cold It Gets! :3c",
+                    "file": ["53_.png"],
+                    "unix": 1762615101
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning Everyone!",
                     "file": ["54.png"],
-                    "unix": null
+                    "unix": 1762703643
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight Everyone!",
+                    "file": [],
+                    "unix": 1762799130
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning!!! :D",
                     "file": ["55.png"],
-                    "unix": null
+                    "unix": 1762804770
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! :D",
+                    "file": [],
+                    "unix": 1762884126
                 },
                 {
                     "from": "Vastina",
                     "text": "Morning Everybody! How Was Your Rest? :3",
                     "file": ["56.png"],
-                    "unix": null
+                    "unix": 1762961153
                 },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! :D",
+                    "file": [],
+                    "unix": 1763007680
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! I'm Tired... :D",
+                    "file": [],
+                    "unix": 1763094427
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Happy Birthday, @Fridgedj_ !!! :D",
+                    "file": [],
+                    "unix": 1763166479
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight, Everyone!!!!!\n\nHappy Birthday, @Fridgedj_ !",
+                    "file": [],
+                    "unix": 1763180166
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Good Morning!!! :D",
+                    "file": [],
+                    "unix": 1763224034
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! :D",
+                    "file": [],
+                    "unix": 1763265278
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Hello! :D",
+                    "file": [],
+                    "unix": 1763349061
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!! :D",
+                    "file": [],
+                    "unix": 1763354324
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Good Morning Everyone! Me And My Bestie Went To The Mall Yesterday!!! It Was Really Fun!",
+                    "file": [],
+                    "unix": 1763393768
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Good Morning Everyone!!!! Anyone Want To Make Snow Angels..?",
+                    "file": [],
+                    "unix": 1763475534
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!!! :D\nMy Wife Looks Adorable When She Sleeps!",
+                    "file": [],
+                    "unix": 1763529455
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Good Morning Everyone!!!!!!! How Are You Feeling Today? :D",
+                    "file": [],
+                    "unix": 1763560824
+                },
+                {
+                    "from": "Vastina",
+                    "text": "OH MY GOD *Turns Around*",
+                    "file": ["gimmicks/41.png"],
+                    "unix": 1763562464
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Good Morning!!! :D\nHave You Guys Been Doing Anything Lately? Any Plans For Thanksgiving? :o",
+                    "file": [],
+                    "unix": 1763650698
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\ @vistanaero is this true",
+                    "file": ["doodles/34.jpg"],
+                    "unix": 1763692427
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!",
+                    "file": [],
+                    "unix": 1763709849
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! :3c",
+                    "file": [],
+                    "unix": 1763793035
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Good Morning! :D",
+                    "file": [],
+                    "unix": 1763828560
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Goodnight!!! :D",
+                    "file": [],
+                    "unix": 1764216056
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\ I FINISHED VASTINAS REFERENCE SHEET! HERE YOU GO EVERYONE!!!!",
+                    "file": ["doodles/35.jpg"],
+                    "unix": 1764218755
+                },
+                {
+                    "from": "Vastina",
+                    "text": "\\\\ spider craws across the screen",
+                    "file": ["gimmicks/41.png"],
+                    "unix": 1765823999
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Oh My Goodness! So Cute!!!!! Can I Pet.... :D",
+                    "file": ["gimmicks/42.png"],
+                    "unix": 1765868827
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Meow!",
+                    "file": [],
+                    "unix": 1766014826
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Never Heard Of Them', Can I See One? :o",
+                    "file": ["gimmicks/43.png"],
+                    "unix": 1766016725
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Good Morning Everybody!!! :D",
+                    "file": [],
+                    "unix": 1766151884
+                },
+                {
+                    "from": "Vastina",
+                    "text": "@LOUDMOUTH_67 Hello!!! Who Might You Be? :o",
+                    "file": ["57.jpg"],
+                    "unix": 1766370317
+                },
+                {
+                    "from": "Vastina",
+                    "text": "Merry Christmas Everyone!!!! :D",
+                    "file": ["58.jpg"],
+                    "unix": 1766677412
+                }
+            ]
+        },
+        {
+            "id": "2026",
+            "name": "2026",
+            "description": "New Years, new model... (the Bunkerbots x Vastina collab that took place in May 2026 has been moved to it's own category!)",
+            "directory": "twitter/3_2026/",
+            "panels": [
                 {
                     "from": "Vastina",
                     "text": null,
                     "file": ["57.png"],
-                    "unix": null
+                    "unix": 1775074408
                 },
                 {
                     "from": "Vastina",
                     "text": "Hey Everyone! :D",
                     "file": ["58.png"],
-                    "unix": null
+                    "unix": 1775081898
                 },
                 {
                     "from": "Vastina",
-                    "text": "Hello! I Swear I've Seen You Before... Have We Met? :)",
+                    "text": "@k4s_put3r\nHello! I Swear I've Seen You Before... Have We Met? :)",
                     "file": ["59.png"],
-                    "unix": null
+                    "unix": 1775082488
                 },
                 {
                     "from": "Vastina",
-                    "text": "",
-                    "file": ["60.png"],
-                    "unix": null
-                },
-                {
-                    "from": "Vastina",
-                    "text": "███████? What A Nice Name! How Are You Feeling Today? :o",
+                    "text": "@k4s_put3r\n███████? What A Nice Name! How Are You Feeling Today? :o",
                     "file": ["61.png"],
-                    "unix": null
+                    "unix": 1775083327
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everyone! :D",
                     "file": ["62.png"],
-                    "unix": null
+                    "unix": 1775139253
                 },
                 {
                     "from": "Vastina",
                     "text": "Happy Birthday, Joe! Have This Present! :D",
                     "file": ["63.png"],
-                    "unix": null
-                },
-                {
-                    "from": "Vastina",
-                    "text": null,
-                    "file": ["64.png"],
-                    "unix": null
+                    "unix": 1776259708
                 },
                 {
                     "from": "Vastina",
                     "text": "Hey Everybody!! How Has Your Night Been? :D",
                     "file": ["65.png"],
-                    "unix": null
-                },
-                {
-                    "from": "Vastina",
-                    "text": null,
-                    "file": ["66.png"],
-                    "unix": null
-                },
-                {
-                    "from": "Vastina",
-                    "text": null,
-                    "file": ["67.png"],
-                    "unix": null
-                },
-                {
-                    "from": "Vastina",
-                    "text": null,
-                    "file": ["backflip.mp4"],
-                    "unix": null
+                    "unix": 1785502964
                 }
-            ],
-            "gimmicks": 41
+            ]
+
         },
         {
             "id": "bunkerbots",
             "name": "Bunkerbots x Vastina Collab!",
             "description": "Joe takes Vastina on a tour through his bunker. She & the Bunkerbots screw around, & there's yuri...",
-            "directory": "twitter/3_bunkerbots/",
+            "directory": "twitter/4_bunkerbots/",
             "theme": "3d",
             "panels": [
                 {

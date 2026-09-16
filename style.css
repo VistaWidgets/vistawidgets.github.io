@@ -197,7 +197,7 @@ i {
 }
 .welcome {
     display: grid;
-    grid-template-rows: 3fr 4fr;
+    grid-template-rows: 3fr 5fr;
 }
 .welcome > .banner {
     background-image: url(assets/login.jpg);
@@ -303,7 +303,7 @@ i {
 }
 .apps > main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     row-gap: calc(var(--gap) * 2);
 }
 .apps > main > button {
@@ -336,39 +336,106 @@ i {
 .apps > main > button img {
     height: 100%;
 }
+.accountsAll {
+    display: grid;
+    grid-template-rows: auto 20vh;
+    height: 100vh;
+}
 .accounts {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
 }
 .accounts > button {
     all: unset;
-    display: grid;
-    grid-template-rows: 100px auto;
-    grid-template-columns: 100px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
 }
 .accounts label {
-
+    font-size: 20px;
+    text-align: center;
 }
-.accounts > button img {
+.accounts > button span > img {
     height: 100%;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+    z-index: 200;
+    pointer-events: none;
 }
 .accounts > button span {
+    width: 100px;
+    height: 100px;
+    position: relative;
     box-sizing: border-box;
-    padding: calc(var(--gap) * 0.75);
+    padding: 8px;
     border-radius:10px;
-    height: 100%;
     background: linear-gradient(
         to bottom,
         rgba(236, 251, 255, 0.5),
         rgba(192, 233, 245, 0.5) 70%,
         rgba(192, 233, 245, 0.5) 90%,
         rgba(173, 225, 255, 0.5) 100%
-    )
+    );
 }
-
-
+.accounts > button span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    background-color: rgba(255,255,255,0.33);
+    border-radius: inherit;
+    z-index: 1;
+}
+.bottom {
+    height: 100%;
+    background: transparent;
+    padding: calc(var(--gap) * 4);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.bottom button {
+    all: unset;
+    width: 80px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.bottom .quit {
+    position: relative;
+    border-left: none;
+    background: linear-gradient(
+        to bottom,
+        rgba(230, 49, 43, 0.9),
+        rgba(131, 10, 10, 0.9),
+        rgba(124, 3, 3, 0.9),
+        rgba(131, 10, 10, 0.9),
+        rgba(230, 49, 43, 0.9)
+    );
+}
+.bottom .quit > span {
+    box-shadow: inset 0 0 0 1px rgba(255, 207, 207, 0.9);
+}
+.bottom > .quit::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    background-color: rgba(255,255,255,0.33);
+}
 /*
 CREDIT TO: dimden.dev's "Old Twitter Layout" extension!
 (https://chromewebstore.google.com/detail/old-twitter-layout-2026/jgejdcdoeeabklepnkdbglgccjpdgpmf?hl=en)
@@ -381,6 +448,7 @@ article.tweet {
     height: min-content;
     padding: 10px;
     border: 1px solid gray;
+    border-top: none;
 }
 article.tweet > .avatar {
     display: inline;
@@ -529,13 +597,18 @@ img.emoji {
     flex-direction: column;
     width: 100%;
 }
+main.renders {
+    background-image: url("assets/checkerboard.png");
+    image-rendering: pixelated;
+    overflow: hidden;
+}
 main.fanart {
     background-image: url("assets/bosswall.jpg");
     background-repeat: repeat;
     background-size: 333px;
     overflow: hidden;
 }
-#fanart {
+#fanart, #renders {
     overflow: scroll;
     overflow-x: hidden;
     scrollbar-width: auto;
@@ -553,10 +626,14 @@ main.fanart {
     display: flex;
     flex-direction: column;
     gap: calc(var(--gap) * 0.5);
+    height: auto;
+    width: auto;
 }
 #fanart > article img,
-#fanart > article video {
-    max-height: 225px;
+#fanart > article video,
+#renders > img {
+    height: 225px;
+    width: auto;
 }
 #fanart > article label {
     cursor: pointer;
@@ -564,6 +641,7 @@ main.fanart {
     padding: calc(var(--gap) * 0.5);
     text-align: center;
     font-weight: bold;
+    font-size: clamp(0.25em, 12px, 1em)
 }
 #fanart > article a {
     all: unset;
@@ -571,7 +649,7 @@ main.fanart {
 }
 .gold {
     background-color: gold;
-    border-width: 5px;
+    border-width: 3px;
     border-style: solid;
     border-top-color:#ffe798;
     border-left-color:#ffe798;
@@ -635,13 +713,13 @@ main.about .imgcaption label {
     #all {
         max-width: 900px;
     }
-    #content {
-        height: auto;
-    }
 }
 @media (max-width: 900px) {
     #all {
         max-width: 800px;
+    }
+    #content {
+        height: 200vh;
     }
 }
 @media (max-width: 800px) {
@@ -670,10 +748,7 @@ main.about .imgcaption label {
     #all {
         max-width: 100%;
     }
-    .window .decoratives {
-        display: none;
-    }
-    .spacer {
+    .top {
         display: none;
     }
 }

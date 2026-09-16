@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vastina's Archive</title>
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="icon" href="assets/logos/logo.ico">
+        <style>
+
+        </style>
+    </head>
+    <body onload="loadPage('renders')">
+        <div id="all">
+            <div class="spacer top"></div>
+            <section id="content" class="window">
+                <header class="decoratives">
+                    <div class="buttons">
+                        <button>_</button>
+                        <button>☐</button>
+                        <button>X</button>
+                    </div>
+                    <div class="searchbar">
+                        <div>
+                            <button style="margin-right: calc(var(--gap) * 0.4);"></button> <!-- Buttons are non-functional but I'm writing them like this incase I want to make them do something later -D-->
+                            <button></button>
+                            <span>▾</span>
+                        </div>
+                        <label>
+                            <img src="assets/getting_started.ico">
+                            <span>«</span> Vastina Archive <span>▸</span> Blender Renders
+                        </label>
+                        <label>
+                            <img src="assets/arrows.ico">
+                        </label>
+                        <label><i>Search</i><img src="assets/search.ico"></label>
+                    </div>
+                </header>
+                <main class="renders">
+                    <div id="renders">
+                    </div>
+                </main>
+            </section>
+        </div>
+    </body>
+    <script src="archive/archive.js"></script>
+</html>

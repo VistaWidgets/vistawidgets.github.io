@@ -9,9 +9,9 @@
     </head>
     <body>
         
-        <div id="all">
+        <div id="all" style="height: auto;">
             <div class="spacer top"></div>
-            <section id="content" class="window">
+            <section id="content" class="window" style="height: auto;">
                 <header class="decoratives">
                     <div class="buttons">
                         <button>_</button>
@@ -48,7 +48,7 @@
                             <label class="text_1">
                                 <h1>Vastina Archive</h1>
                                 <p>Created by: Vastina & Drone #4</p>
-                                <p>Over 450 files available for viewing & download!</p>
+                                <p>Over 450 files & 300 tweets available for viewing!</p>
                             </label>
                         </main>
                         <label>welcome</label>
@@ -56,7 +56,7 @@
                     <div class="content">
                         <div class="apps">
                             <header>
-                                <label>Archives (3)</label>
+                                <label>Archives (4)</label>
                                 <span></span>
                             </header>
                             <main>
@@ -64,10 +64,13 @@
                                     <img src="assets/twitter.ico">
                                     <span>Roleplay, Tweets, Fanmail</span>
                                 </button>
-
                                 <button onclick="linkTo('fanart')">
                                     <img src="assets/fanart.ico">
                                     <span>Fanart</span>
+                                </button>
+                                <button onclick="linkTo('renders')">
+                                    <img src="assets/blender.png">
+                                    <span>Blender Renders</span>
                                 </button>
                                 <button onclick="linkTo('gmod')">
                                     <img src="assets/gmod.png">
@@ -100,6 +103,7 @@
                     </div>
                 </main>
             </section>
+            <div class="spacer"></div>
         </div>
         <script src="archive/archive.js"></script>
     </body>

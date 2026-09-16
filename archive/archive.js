@@ -24,6 +24,7 @@ siteMap.set("tweets",   "tweets.html");
 siteMap.set("about",    "about.html");
 siteMap.set("fanart",   "fanart.html");
 siteMap.set("accounts", "accounts.html");
+siteMap.set("renders",  "renders.html");
 
 siteMap.set("vastina",      "https://x.com/VistaWidgets");
 siteMap.set("tina",         "https://x.com/VistaWidgetOFFT");
@@ -119,7 +120,9 @@ async function twitterHandlr(selected) {
 async function twitter(arc) {
     var container = document.createElement("div");
     container.id = arc.id;
+    var count = 0;
     for (panel of arc.panels) {
+            count += 1;
             var clone   = document.importNode(template_tweet.content, true);
             var tweet   = clone.querySelector(".tweet");
             
@@ -144,7 +147,7 @@ async function twitter(arc) {
             
             handle.innerHTML= "@" + characters[panel.from].account;
             
-            if (panel.text !== null) {
+            if (panel.text !== null && panel.text !== "") {
                 var processing = panel.text.replaceAll("\n", "<br>");
                 twemojis.forEach((value, key, map) => {
                     if (processing.includes(key)) {
@@ -189,6 +192,7 @@ async function twitter(arc) {
             }
             container.appendChild(clone)
     }
+    console.log(count);
     document.getElementById("twt").appendChild(container);
     return true;
 }
@@ -207,6 +211,9 @@ const months = {
         11  : "Dec"
     }
 async function unixHandlr(format, unix) {
+    if (typeof unix == "string") {
+        return unix;
+    }
     switch (format) {
         case "twitter":
             var date    = new Date(unix * 1000);
@@ -267,6 +274,14 @@ async function fanartHandlr() {
     }
 }
 
+async function renderHandlr() {
+    var rendersCount = 45;
+    for (r = 1; r <= rendersCount; r++) {
+        var img = document.createElement("img");
+        img.src = d.renders + r + ".png";
+        document.getElementById("renders").appendChild(img);
+    }
+}
 function loadPage(page) {
     switch (page) {
         case "tweets":
@@ -278,6 +293,9 @@ function loadPage(page) {
             break;
         case "fanart":
             fanartHandlr();
+            break;
+        case "renders":
+            renderHandlr();
             break;
     }
 }

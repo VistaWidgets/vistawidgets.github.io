@@ -10,28 +10,35 @@
             body {
                 background: url("assets/login.jpg");
                 background-size: cover;
-                background-position: center;
+                background-position: bottom;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
             }
         </style>
     </head>
+    <script src="archive/archive.js"></script>
     <body>
-        <div class="spacer top"></div>
-        <div id="all" class="accountsAll">
+        <div class="accountsAll">
             <div class="accounts">
                 <button onclick="linkTo('vastina')">
-                    <span><img src="archive/assets/vista-widgets-pfp.png"></span>
-                    <label>Vastina</label>
+                    <span><img src="archive/twitter/vista-widgets-pfp.png"></span>
+                    <label>Vastina<br>(Roleplay Account)</label>
                 </button>
                 <button onclick="linkTo('tina')">
-                    <span><img src="archive/assets/twittterpridepfp.png"></span>
-                    <label>Tina's Personal Account</label>
+                    <span><img src="assets/profiles/tina.jpg"></span>
+                    <label>Tina<br>(Author of Vastina)</label>
                 </button>
                 <button onclick="linkTo('drone')">
                     <span><img src="assets/profiles/drone.jpg"></span>
-                    <label>Drone #4</label>
+                    <label>Drone #4<br>(Website Programmer)</label>
+                </button>
+            </div>
+            <div class="bottom">
+                <button class="quit" style="display: none;">
+                    <span></span>
+                    <span></span>
                 </button>
             </div>
         </div>
