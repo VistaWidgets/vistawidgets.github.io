@@ -54,12 +54,12 @@ const characterTemplate   = {
     name    : undefined,
     account : undefined,
     themes  : undefined,
-    pfp     : undefined,
+    default : undefined,
 }
 async function getJSON() {
     if (JSON === undefined) {
         console.log("Global JSON undefined; fetching...")
-        const RESPONSE  = await fetch("archive/archive.json?v=1.11");
+        const RESPONSE  = await fetch("archive/archive.json?v=1.2");
         JSON            = await RESPONSE.json();
     }
     return JSON;
@@ -76,7 +76,7 @@ async function readCharacters() {
             } else {
                 var list = Object.create(characterTemplate);
                 list.account                = character.account;
-                list.pfp                    = character.pfp;
+                list.default                = character.default;
                 list.themes                 = character.themes;
                 characters[character.name]  = list;
             }
@@ -110,7 +110,18 @@ async function twitterHandlr(selected) {
         }
         for (arc of JSON.arcs) {
             if (arc.id == selected) {
+                var profile = document.getElementById("profile");
+                var avatar = profile.querySelector(".avatar");
                 document.getElementById("description").innerHTML = arc.description;
+                if (arc.theme) {
+                    avatar.src = characters["Vastina"].themes[arc.theme][0];
+                    var bg = "url('" + characters["Vastina"].themes[arc.theme][1] + "')";
+                    profile.style.backgroundImage = bg;
+                } else {
+                    avatar.src = characters["Vastina"].default[0];
+                    var bg = "url('" + characters["Vastina"].default[1] + "')";
+                    profile.style.backgroundImage = bg;
+                }
                 break;
             }
         }
@@ -140,9 +151,13 @@ async function twitter(arc) {
             name.innerHTML  = panel.from;
             if (arc.theme && characters[panel.from].themes) {
             // if a theme is defined, AND the character even *has* themes...
-                avatar.src      = characters[panel.from].themes[arc.theme];
+                avatar.src      = characters[panel.from].themes[arc.theme][0];
+
             } else {
-                avatar.src      = characters[panel.from].pfp;
+                avatar.src      = characters[panel.from].default[0];
+            }
+            if (panel.theme) {
+                avatar.src      = characters[panel.from].themes[panel.theme][0]
             }
             
             handle.innerHTML= "@" + characters[panel.from].account;
@@ -189,6 +204,9 @@ async function twitter(arc) {
             }
             if (panel == arc.panels[0]) {
                 clone.id = arc.id;
+            }
+            if (panel.ooc && panel.ooc == true) {
+                tweet.classList.add("ooc");
             }
             container.appendChild(clone)
     }
@@ -290,6 +308,9 @@ function loadPage(page) {
                 var option = event.target.value;
                 twitterHandlr(option);
             })
+            document.getElementById("oocToggle").addEventListener("change", (event) => {
+                ooc();
+            })
             break;
         case "fanart":
             fanartHandlr();
@@ -298,4 +319,27 @@ function loadPage(page) {
             renderHandlr();
             break;
     }
+}
+var oocValue = true;
+function ooc() {
+    if (oocValue == false) {
+        oocValue = true;
+    } else if (oocValue == true) {
+        oocValue = false;
+    }
+    var selected = document.getElementById("arcSelect").value;
+    var arc = document.getElementById(selected)
+    for (tweet of arc.children) {
+        if (tweet.classList.contains("ooc")) {
+            switch (oocValue) {
+                case true:
+                    tweet.style.display = "block";
+                    break;
+                case false:
+                    tweet.style.display = "none";
+                    break;
+            }
+        }
+    }
+    return true;
 }

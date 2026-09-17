@@ -174,6 +174,7 @@ i {
     top: 5px;
 }
 .window .decoratives > .searchbar button {
+    position: relative;
     all: unset;
     border-radius: 100%;
     height: 35px;
@@ -188,6 +189,13 @@ i {
     box-shadow: inset 0 0 0 1px rgba(240, 255, 255, 0.5);
     -webkit-text-stroke: 3px rgb(82, 111, 131);
     paint-order: stroke fill;
+}
+.window .decoratives > .searchbar button img {
+    width: 35px;
+    height: 35px;
+}
+.window .decoratives > .searchbar button:nth-child(2) {
+    transform: scaleX(-1);
 }
 .window > main {
     border: inherit;
@@ -449,6 +457,10 @@ article.tweet {
     padding: 10px;
     border: 1px solid gray;
     border-top: none;
+    border-left: none;
+}
+article.tweet.ooc {
+    background-color: hsl(0, 0%, 90%)
 }
 article.tweet > .avatar {
     display: inline;
@@ -562,10 +574,11 @@ img.emoji {
 }
 .tweets > .menu {
     width: 100%;
-    padding: var(--gap);
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
     font-size: 13px;
+    border: 1px gray solid;
 }
 .tweets > .menu select {
     background-color: #FFF;
@@ -575,11 +588,17 @@ img.emoji {
     padding-left: calc(var(--gap));
     margin-bottom: calc(var(--gap));
 }
-.tweets > .menu span {
+.tweets > .menu input {
+    display: inline-block;
+    width: auto;
+}
+.tweets > .menu div:last-child span {
     border: 1px gray solid;
     border-radius: 10px;
     padding: calc(var(--gap));
-    min-height: 300px;
+    min-height: 100px;
+    height: auto;
+    max-height: 300px;
     background-color: #FFF;
 }
 .tweets > .menu label {
@@ -590,13 +609,45 @@ img.emoji {
     margin-block: 4px;
     font-size: 1.5em;
 }
-.tweets > .menu > div {
-    padding: var(--gap);
-    border: 1px gray solid;
+.tweets > .menu > div:nth-child(2) {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: var(--gap);
 }
+#profile {
+    height: 100%;
+    position: relative;
+    background-image: url("archive/twitter/vista-widgets-banner.png");
+    background-size: cover;
+    background-position: top;
+}
+#profile > span:first-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 4px;
+    width: 100px;
+    height: 100px;
+    background-color: #FFF;
+    border-radius: 10px;
+    z-index: 2;
+}
+#profile > span:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #FFF;
+}
+#profile img {
+    height: auto;
+    width: 100%;
+    border-radius: inherit;
+}
+
+
 main.renders {
     background-image: url("assets/checkerboard.png");
     image-rendering: pixelated;
@@ -736,12 +787,25 @@ main.about .imgcaption label {
         max-width: 500px;
     }
     .tweets {
-        width: 100%;
-        background-color: #FFF;
         display: grid;
+        grid-template-columns: auto;
         grid-template-rows: auto auto;
-        overflow: hidden;
-        scrollbar-width: none;
+    }
+    .twitter {
+        max-width: none;
+        width: 100%;
+        border-top: inherit;
+    }
+    article.tweet {
+        max-width: none;
+        width: 100%;
+    }
+    .tweets > .menu div:last-child span {
+        height: auto;
+    }
+    .tweets > menu {
+        grid-template-rows: auto auto;
+        min-height: 200px;
     }
 }
 @media (max-width: 750px) {
@@ -751,4 +815,5 @@ main.about .imgcaption label {
     .top {
         display: none;
     }
+    
 }

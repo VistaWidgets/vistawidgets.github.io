@@ -3,30 +3,27 @@
         {
             "name": "Vastina",
             "account": "VistaWidgets",
-            "pfp": "assets/profiles/vastina.png",
+            "default": ["assets/profiles/vastina.png", "archive/twitter/vista-widgets-banner.png"],
             "themes": {
-                "win7": "assets/profiles/vastina_win7.png",
-                "3d": "assets/profiles/vastina_3d.png"
-            },
-            "color": "#FFFFFF"
+                "win7": ["assets/profiles/vastina_win7.png", "archive/twitter/vista-widgets-banner-win7.png"],
+                "3d": ["assets/profiles/vastina_3d.png", "archive/twitter/vista-widgets-banner.png"],
+                "winter": ["archive/twitter/vista-widgets-pfp-winter.png", "archive/twitter/vista-widgets-banner-winter.png"]
+            }
         },
         {
             "name": "Joe",
             "account": "joetherobo52693",
-            "pfp": "assets/profiles/joe.jpg",
-            "color": "#FFFFFF"
+            "default": ["assets/profiles/joe.jpg"]
         },
         {
             "name": "Waltz",
             "account": "joetherobo52693",
-            "pfp": "assets/profiles/waltz.jpg",
-            "color": "#FFFFFF"
+            "default": ["assets/profiles/waltz.jpg"]
         },
         {
             "name": "Vivian",
             "account": "joetherobo52693",
-            "pfp": "assets/profiles/vivian.jpg",
-            "color": "#FFFFFF"
+            "default": ["assets/profiles/vivian.jpg"]
         }
     ],
     "fanart": {
@@ -595,7 +592,8 @@
                     "from": "Vastina",
                     "text": "\\\\I dont think it was obvious but this account takes place 10 years ago (2015 as of now), which is why Vastina doesnt know some pieces of media, like Deltarune, Nintendo Switch 1 and 2, etc.",
                     "file": [],
-                    "unix": 1759538048
+                    "unix": 1759538048,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -745,7 +743,8 @@
                     "from": "Vastina",
                     "text": "\\\\making concepts for a humanoid vastina but i cant draw humans so this is all its ever gonna be... lol\n\n\\\\her body would be robotic.. like its controlled by a controller... since vastina isnt the actual pc and is instead just a program on it, she controls her body like a video game character!",
                     "file": ["doodles/17.jpg"],
-                    "unix": 1759767255
+                    "unix": 1759767255,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -812,7 +811,8 @@
                     "from": "Vastina",
                     "text": "\\\\ive had ideas for vastinas crush, however i dont know if the account owner would be comfortable with it so im not doing anything until i get permission... lol...",
                     "file": [],
-                    "unix": 1759888710
+                    "unix": 1759888710,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -932,7 +932,8 @@
                     "from": "Vastina",
                     "text": "\\\\ IM A NOOBIE",
                     "file": ["_6.jpg"],
-                    "unix": 1760395852
+                    "unix": 1760395852,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -962,7 +963,8 @@
                     "from": "Vastina",
                     "text": "\\\\ do you guys like my family tree",
                     "file": ["_7.png"],
-                    "unix": 1760538890
+                    "unix": 1760538890,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1034,7 +1036,8 @@
                     "from": "Vastina",
                     "text": "\\\\ @Fridgedj_",
                     "file": ["doodles/25.mp4"],
-                    "unix": 1760932614
+                    "unix": 1760932614,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1052,7 +1055,8 @@
                     "from": "Vastina",
                     "text": "\\\\",
                     "file": ["doodles/26.mp4"],
-                    "unix": 1760966637
+                    "unix": 1760966637,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1244,7 +1248,8 @@
                     "from": "Vastina",
                     "text": "\\\\ sketch is done... does it look good guys?",
                     "file": ["doodles/29.jpg"],
-                    "unix": 1761917692
+                    "unix": 1761917692,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1310,19 +1315,22 @@
                     "from": "Vastina",
                     "text": "\\\\ couldnt resist drawing him again HES SO SILLY AND CUTE GRAH",
                     "file": ["doodles/30.jpg"],
-                    "unix": 1762284248
+                    "unix": 1762284248,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
                     "text": "\\\\ ok i did it again hes just fun to draw #LMAO",
                     "file": ["doodles/31.png"],
-                    "unix": 1762280813
+                    "unix": 1762280813,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
                     "text": "\\\\ doodles of vastinas mouth",
                     "file": ["doodles/32.png"],
-                    "unix": 1762284324
+                    "unix": 1762284324,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1358,7 +1366,8 @@
                     "from": "Vastina",
                     "text": "\\\\ @Fridgedj_ happy birthday",
                     "file": ["doodles/33.jpg"],
-                    "unix": 1762574233
+                    "unix": 1762574233,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1490,7 +1499,8 @@
                     "from": "Vastina",
                     "text": "\\\\ @vistanaero is this true",
                     "file": ["doodles/34.jpg"],
-                    "unix": 1763692427
+                    "unix": 1763692427,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1520,13 +1530,15 @@
                     "from": "Vastina",
                     "text": "\\\\ I FINISHED VASTINAS REFERENCE SHEET! HERE YOU GO EVERYONE!!!!",
                     "file": ["doodles/35.jpg"],
-                    "unix": 1764218755
+                    "unix": 1764218755,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
                     "text": "\\\\ spider craws across the screen",
                     "file": ["gimmicks/41.png"],
-                    "unix": 1765823999
+                    "unix": 1765823999,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1556,13 +1568,15 @@
                     "from": "Vastina",
                     "text": "@LOUDMOUTH_67 Hello!!! Who Might You Be? :o",
                     "file": ["57.jpg"],
-                    "unix": 1766370317
+                    "unix": 1766370317,
+                    "theme": "winter"
                 },
                 {
                     "from": "Vastina",
                     "text": "Merry Christmas Everyone!!!! :D",
                     "file": ["58.jpg"],
-                    "unix": 1766677412
+                    "unix": 1766677412,
+                    "theme": "winter"
                 }
             ]
         },
