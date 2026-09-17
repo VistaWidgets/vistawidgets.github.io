@@ -781,6 +781,9 @@ main.about .imgcaption label {
         grid-template-columns: 1fr 1fr;
         font-size: 0.75em;
     }
+    .window .decoratives > .searchbar > label {
+        font-size: 0.67em;
+    }
 }
 @media (max-width: 750px) {
     #all {
