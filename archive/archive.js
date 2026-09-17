@@ -47,6 +47,7 @@ var twemojis = new Map()
 twemojis.set("\u00F0\u009F\u009F\u00A7", "1f7e7") // orange
 twemojis.set("\u00F0\u009F\u0092\u009C", "1f49c") // purple
 twemojis.set("\u00F0\u009F\u009F\u00A2", "1f7e2") // green
+twemojis.set("\u00F0\u009F\u0091\u0080", "1f440")
 
 var JSON                = undefined;
 var characters          = undefined;
@@ -311,6 +312,7 @@ function loadPage(page) {
             document.getElementById("oocToggle").addEventListener("change", (event) => {
                 ooc();
             })
+            document.getElementById("arcSelect").value = "win7";
             break;
         case "fanart":
             fanartHandlr();

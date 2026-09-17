@@ -318,9 +318,10 @@
                 },
                 {
                     "from": "Vastina",
-                    "text": "1) \\\\I didn't grow up with vista or windows 7, and ironically i dont really know much about those operating systems, so my fault! (2nd answer in replies)\n\n2) Yeah! Of Course They Can! And Other Widgets? I Can Chose Any Widget! But I Decided I Looked Best With These Two! :D \\Other widgets? well I had to recreate these assets from scratch because i couldnt find any svgs, so if i wanted more i could make them, but god im lazy. lol.",
+                    "text": "1) \\\\I didn't grow up with vista or windows 7, and ironically i dont really know much about those operating systems, so my fault! (2nd answer in replies)\n\n2) Yeah! Of Course They Can! And Other Widgets? I Can Chose Any Widget! But I Decided I Looked Best With These Two! :D\n\\Other widgets? well I had to recreate these assets from scratch because i couldnt find any svgs, so if i wanted more i could make them, but god im lazy. lol.",
                     "file": ["gimmicks/10.png"],
-                    "unix": 1758497461
+                    "unix": 1758497461,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -398,7 +399,8 @@
                     "from": "Vastina",
                     "text": "//I might make a retcon of the wallpaper so its actually windows vista",
                     "file": [],
-                    "unix": 1758763975
+                    "unix": 1758763975,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -968,15 +970,17 @@
                 },
                 {
                     "from": "Vastina",
-                    "text": "\\ non-canon, alternate timeilne @Qu3stion_",
+                    "text": "\\\\ non-canon, alternate timeilne @Qu3stion_",
                     "file": ["doodles/23.jpg"],
-                    "unix": 1760578011
+                    "unix": 1760578011,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
                     "text": "\\ duuuude",
                     "file": ["doodles/24.png"],
-                    "unix": 1760578936
+                    "unix": 1760578936,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1042,7 +1046,7 @@
                 {
                     "from": "Vastina",
                     "text": "Goodnight, Everyone! >:D\n\n@Qu3stion_ Goodnight, Sweetheart!~ >;3",
-                    "file": ["doodles/25.mp4"],
+                    "file": [],
                     "unix": 1760934301
                 },
                 {
@@ -1126,9 +1130,10 @@
                 },
                 {
                     "from": "Vastina",
-                    "text": "\\ humanoid xero concept @Fridgedj_",
+                    "text": "\\\\ humanoid xero concept @Fridgedj_",
                     "file": ["doodles/27.png"],
-                    "unix": 1761361356
+                    "unix": 1761361356,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1138,15 +1143,16 @@
                 },
                 {
                     "from": "Vastina",
-                    "text": "Morning! 👀",
+                    "text": "Morning! \u00F0\u009F\u0091\u0080",
                     "file": ["39.png"],
                     "unix": 1761402076
                 },
                 {
                     "from": "Vastina",
-                    "text": "\\ @Fridgedj_\nbro got owned #LMAO",
+                    "text": "\\\\ @Fridgedj_\nbro got owned #LMAO",
                     "file": ["39_.jpg"],
-                    "unix": 1761440847
+                    "unix": 1761440847,
+                    "ooc": true
                 },
                 {
                     "from": "Vastina",
@@ -1590,31 +1596,36 @@
                     "from": "Vastina",
                     "text": null,
                     "file": ["57.png"],
-                    "unix": 1775074408
+                    "unix": 1775074408,
+                    "theme": "win7"
                 },
                 {
                     "from": "Vastina",
                     "text": "Hey Everyone! :D",
                     "file": ["58.png"],
-                    "unix": 1775081898
+                    "unix": 1775081898,
+                    "theme": "win7"
                 },
                 {
                     "from": "Vastina",
                     "text": "@k4s_put3r\nHello! I Swear I've Seen You Before... Have We Met? :)",
                     "file": ["59.png"],
-                    "unix": 1775082488
+                    "unix": 1775082488,
+                    "theme": "win7"
                 },
                 {
                     "from": "Vastina",
                     "text": "@k4s_put3r\n███████? What A Nice Name! How Are You Feeling Today? :o",
                     "file": ["61.png"],
-                    "unix": 1775083327
+                    "unix": 1775083327,
+                    "theme": "win7"
                 },
                 {
                     "from": "Vastina",
                     "text": "Good Morning Everyone! :D",
                     "file": ["62.png"],
-                    "unix": 1775139253
+                    "unix": 1775139253,
+                    "theme": "win7"
                 },
                 {
                     "from": "Vastina",
@@ -2039,7 +2050,7 @@
                 {
                     "from": "Vastina",
                     "text": "(Your computer is unable to process the immense and overwhelming power of string cheese at this time.\n\n The renmoval of Waltz from the ceiling will be over in just a moment.\nThank you.",
-                    "file": ["28.png"],
+                    "file": ["28.jpg"],
                     "source": "https://x.com/VistaWidgets/status/2056919961730175364",
                     "unix": 1779242909
                 },
