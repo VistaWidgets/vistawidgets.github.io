@@ -60,7 +60,7 @@ const characterTemplate   = {
 async function getJSON() {
     if (JSON === undefined) {
         console.log("Global JSON undefined; fetching...")
-        const RESPONSE  = await fetch("archive/archive.json?v=1.2");
+        const RESPONSE  = await fetch("archive/archive.json?v=12");
         JSON            = await RESPONSE.json();
     }
     return JSON;
